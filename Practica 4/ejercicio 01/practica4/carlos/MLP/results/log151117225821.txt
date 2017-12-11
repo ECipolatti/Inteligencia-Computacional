@@ -1,0 +1,70 @@
+Inicio:             2015-11-17 22:58:21
+Reading MNIST Dataset ...
+Class		 0	 1	 2	 3	 4	 5	 6	 7	 8	 9	 Total
+Training:	 592	 671	 581	 608	 623	 514	 608	 651	 551	 601	 6000
+Testing:	 85	 126	 116	 107	 110	 87	 87	 99	 89	 94	 1000
+RN = [ 10 10 10 ]
+Comienzo del entrenamiento...
+Starting parallel pool (parpool) using the 'local' profile ... connected to 3 workers.
+[1|3]. Porcentaje de acierto (TRAIN) 97.25 
+[1|3]. Porcentaje de acierto (TEST)  87.00 
+[3|3]. Porcentaje de acierto (TRAIN) 96.75 
+[3|3]. Porcentaje de acierto (TEST)  84.30 
+[2|3]. Porcentaje de acierto (TRAIN) 96.50 
+[2|3]. Porcentaje de acierto (TEST)  83.60 
+Fin del entrenamiento... 503.79 seg
+-------------------------------------------------------
+RN = [ 10 20 10 ]
+Comienzo del entrenamiento...
+Operation terminated by user during mlp_train (line 38)
+
+
+In mlp_ocr>(parfor body) (line 58)
+            [w,w0] = mlp_train(train_data,RN,w,w0,n_in,gamma,eta,phi,c);
+
+In parallel_function>make_general_channel/channel_general (line 914)
+                    O = F(C{:});
+
+In remoteParallelFunction (line 38)
+        out = parallel.internal.pool.serialize(feval(channel, channelArgs{:}));
+
+Operation terminated by user during mlp_train (line 45)
+
+
+In mlp_ocr>(parfor body) (line 58)
+            [w,w0] = mlp_train(train_data,RN,w,w0,n_in,gamma,eta,phi,c);
+
+In parallel_function>make_general_channel/channel_general (line 914)
+                    O = F(C{:});
+
+In remoteParallelFunction (line 38)
+        out = parallel.internal.pool.serialize(feval(channel, channelArgs{:}));
+
+Operation terminated by user during mlp_train (line 16)
+
+
+In mlp_ocr>(parfor body) (line 58)
+            [w,w0] = mlp_train(train_data,RN,w,w0,n_in,gamma,eta,phi,c);
+
+In parallel_function>make_general_channel/channel_general (line 914)
+                    O = F(C{:});
+
+In remoteParallelFunction (line 38)
+        out = parallel.internal.pool.serialize(feval(channel, channelArgs{:}));
+
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('distcomp.remoteparfor/getCompleteIntervals', '/usr/local/MATLAB/R2014a/toolbox/distcomp/distcomp/+distcomp/remoteparfor.m', 119)" style="font-weight:bold">distcomp.remoteparfor/getCompleteIntervals</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2014a/toolbox/distcomp/distcomp/+distcomp/remoteparfor.m',119,0)">line 119</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('parallel_function>distributed_execution', '/usr/local/MATLAB/R2014a/toolbox/matlab/lang/parallel_function.m', 820)" style="font-weight:bold">parallel_function>distributed_execution</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2014a/toolbox/matlab/lang/parallel_function.m',820,0)">line 820</a>)
+        [tags, out] = P.getCompleteIntervals(chunkSize);
+
+In <a href="matlab:helpUtils.errorDocCallback('parallel_function', '/usr/local/MATLAB/R2014a/toolbox/matlab/lang/parallel_function.m', 587)" style="font-weight:bold">parallel_function</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2014a/toolbox/matlab/lang/parallel_function.m',587,0)">line 587</a>)
+        R = distributed_execution(...
+
+In <a href="matlab:helpUtils.errorDocCallback('mlp_ocr', '/media/STUFF/Dropbox/ic/carlos/MLP/mlp_ocr.m', 34)" style="font-weight:bold">mlp_ocr</a> (<a href="matlab: opentoline('/media/STUFF/Dropbox/ic/carlos/MLP/mlp_ocr.m',34,0)">line 34</a>)
+    parfor i_k = 1 : k
+
+In <a href="matlab:helpUtils.errorDocCallback('test_ocr_arch', '/media/STUFF/Dropbox/ic/carlos/MLP/test_ocr_arch.m', 45)" style="font-weight:bold">test_ocr_arch</a> (<a href="matlab: opentoline('/media/STUFF/Dropbox/ic/carlos/MLP/test_ocr_arch.m',45,0)">line 45</a>)
+       [Tst,Trn,Val,time] = mlp_ocr(train_data,test_data,RN,n_in,n_out,tol,maxep,vrate,c,k);
+} 
+test_ocr_arch

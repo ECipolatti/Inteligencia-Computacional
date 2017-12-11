@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: informe.aux
+The style file: informe.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: informe.bib
+-- tpf.bst version 0.10
+-- http://www.ctan.org/tex-archive/macros/latex/contrib/supported/IEEEtran/
+Warning--empty author and editor in original
+
+Done.
+You've used 9 entries,
+            3957 wiz_defined-function locations,
+            848 strings with 8265 characters,
+and the built_in function-call counts, 5859 in all, are:
+= -- 470
+> -- 107
+< -- 51
++ -- 65
+- -- 15
+* -- 261
+:= -- 913
+add.period$ -- 18
+call.type$ -- 9
+change.case$ -- 7
+chr.to.int$ -- 120
+cite$ -- 10
+duplicate$ -- 424
+empty$ -- 493
+format.name$ -- 21
+if$ -- 1350
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 63
+newline$ -- 47
+num.names$ -- 8
+pop$ -- 147
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 475
+stack$ -- 0
+substring$ -- 288
+swap$ -- 336
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 4
+type$ -- 0
+warning$ -- 1
+while$ -- 26
+width$ -- 10
+write$ -- 99
+(There was 1 warning)

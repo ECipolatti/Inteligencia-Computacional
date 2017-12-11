@@ -1,0 +1,11 @@
+\frametitle{Medidas e Índices de evaluación de Clusters}
+Las medidas e índices utilizados son:
+   \begin{itemize}
+	\item Tiempo
+	\item Iteraciones
+   	\item Inter-Cluster
+	\item Intra-Cluster
+    \item Intra/Inter
+	\item Indice Davies-Boulding
+	\item Indice Dunn
+   \end{itemize}

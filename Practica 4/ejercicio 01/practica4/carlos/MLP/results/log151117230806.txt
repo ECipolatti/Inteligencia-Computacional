@@ -1,0 +1,1013 @@
+Inicio:             2015-11-17 23:08:06
+Reading MNIST Dataset ...
+Class		 0	 1	 2	 3	 4	 5	 6	 7	 8	 9	 Total
+Training:	 285	 339	 299	 295	 325	 274	 306	 329	 261	 287	 3000
+Testing:	 85	 126	 116	 107	 110	 87	 87	 99	 89	 94	 1000
+RN = [ 10 10 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 97.25 
+[3|3]. Porcentaje de acierto (TEST)  81.30 
+[2|3]. Porcentaje de acierto (TRAIN) 97.40 
+[2|3]. Porcentaje de acierto (TEST)  82.70 
+[1|3]. Porcentaje de acierto (TRAIN) 97.05 
+[1|3]. Porcentaje de acierto (TEST)  84.00 
+Fin del entrenamiento... 194.83 seg
+-------------------------------------------------------
+RN = [ 10 20 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 97.10 
+[3|3]. Porcentaje de acierto (TEST)  81.00 
+[1|3]. Porcentaje de acierto (TRAIN) 98.30 
+[2|3]. Porcentaje de acierto (TRAIN) 97.85 
+[2|3]. Porcentaje de acierto (TEST)  80.00 
+[1|3]. Porcentaje de acierto (TEST)  82.30 
+Fin del entrenamiento... 207.46 seg
+-------------------------------------------------------
+RN = [ 10 30 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 98.35 
+[3|3]. Porcentaje de acierto (TEST)  80.60 
+[2|3]. Porcentaje de acierto (TRAIN) 97.85 
+[2|3]. Porcentaje de acierto (TEST)  84.60 
+[1|3]. Porcentaje de acierto (TRAIN) 97.85 
+[1|3]. Porcentaje de acierto (TEST)  82.40 
+Fin del entrenamiento... 196.94 seg
+-------------------------------------------------------
+RN = [ 10 40 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 97.75 
+[3|3]. Porcentaje de acierto (TEST)  81.30 
+[2|3]. Porcentaje de acierto (TRAIN) 97.60 
+[2|3]. Porcentaje de acierto (TEST)  84.20 
+[1|3]. Porcentaje de acierto (TRAIN) 97.90 
+[1|3]. Porcentaje de acierto (TEST)  85.30 
+Fin del entrenamiento... 199.17 seg
+-------------------------------------------------------
+RN = [ 10 50 10 ]
+Comienzo del entrenamiento...
+[1|3]. Porcentaje de acierto (TRAIN) 97.25 
+[1|3]. Porcentaje de acierto (TEST)  82.90 
+[2|3]. Porcentaje de acierto (TRAIN) 97.85 
+[2|3]. Porcentaje de acierto (TEST)  83.10 
+[3|3]. Porcentaje de acierto (TRAIN) 98.05 
+[3|3]. Porcentaje de acierto (TEST)  82.60 
+Fin del entrenamiento... 191.67 seg
+-------------------------------------------------------
+RN = [ 10 60 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 97.70 
+[2|3]. Porcentaje de acierto (TEST)  84.00 
+[3|3]. Porcentaje de acierto (TRAIN) 98.05 
+[3|3]. Porcentaje de acierto (TEST)  81.80 
+[1|3]. Porcentaje de acierto (TRAIN) 98.65 
+[1|3]. Porcentaje de acierto (TEST)  83.70 
+Fin del entrenamiento... 195.65 seg
+-------------------------------------------------------
+RN = [ 10 70 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 96.00 
+[2|3]. Porcentaje de acierto (TEST)  78.60 
+[1|3]. Porcentaje de acierto (TRAIN) 98.05 
+[1|3]. Porcentaje de acierto (TEST)  82.20 
+[3|3]. Porcentaje de acierto (TRAIN) 97.55 
+[3|3]. Porcentaje de acierto (TEST)  81.50 
+Fin del entrenamiento... 205.59 seg
+-------------------------------------------------------
+RN = [ 10 80 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 96.95 
+[2|3]. Porcentaje de acierto (TEST)  81.50 
+[3|3]. Porcentaje de acierto (TRAIN) 97.40 
+[3|3]. Porcentaje de acierto (TEST)  80.80 
+[1|3]. Porcentaje de acierto (TRAIN) 97.80 
+[1|3]. Porcentaje de acierto (TEST)  82.10 
+Fin del entrenamiento... 205.34 seg
+-------------------------------------------------------
+RN = [ 10 90 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 97.65 
+[2|3]. Porcentaje de acierto (TEST)  82.90 
+[3|3]. Porcentaje de acierto (TRAIN) 97.00 
+[3|3]. Porcentaje de acierto (TEST)  83.10 
+[1|3]. Porcentaje de acierto (TRAIN) 96.40 
+[1|3]. Porcentaje de acierto (TEST)  81.90 
+Fin del entrenamiento... 207.32 seg
+-------------------------------------------------------
+RN = [ 10 100 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 97.35 
+[3|3]. Porcentaje de acierto (TEST)  81.50 
+[2|3]. Porcentaje de acierto (TRAIN) 98.10 
+[2|3]. Porcentaje de acierto (TEST)  82.90 
+[1|3]. Porcentaje de acierto (TRAIN) 97.70 
+[1|3]. Porcentaje de acierto (TEST)  84.50 
+Fin del entrenamiento... 219.91 seg
+-------------------------------------------------------
+RN = [ 20 10 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 99.20 
+[2|3]. Porcentaje de acierto (TEST)  86.60 
+[3|3]. Porcentaje de acierto (TRAIN) 98.65 
+[3|3]. Porcentaje de acierto (TEST)  85.10 
+[1|3]. Porcentaje de acierto (TRAIN) 99.40 
+[1|3]. Porcentaje de acierto (TEST)  86.20 
+Fin del entrenamiento... 200.80 seg
+-------------------------------------------------------
+RN = [ 20 20 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 98.90 
+[3|3]. Porcentaje de acierto (TEST)  86.90 
+[2|3]. Porcentaje de acierto (TRAIN) 99.30 
+[2|3]. Porcentaje de acierto (TEST)  87.70 
+[1|3]. Porcentaje de acierto (TRAIN) 99.60 
+[1|3]. Porcentaje de acierto (TEST)  87.00 
+Fin del entrenamiento... 206.75 seg
+-------------------------------------------------------
+RN = [ 20 30 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.25 
+[3|3]. Porcentaje de acierto (TEST)  85.90 
+[1|3]. Porcentaje de acierto (TRAIN) 99.35 
+[1|3]. Porcentaje de acierto (TEST)  87.30 
+[2|3]. Porcentaje de acierto (TRAIN) 99.10 
+[2|3]. Porcentaje de acierto (TEST)  85.50 
+Fin del entrenamiento... 208.26 seg
+-------------------------------------------------------
+RN = [ 20 40 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 98.70 
+[3|3]. Porcentaje de acierto (TEST)  85.60 
+[1|3]. Porcentaje de acierto (TRAIN) 99.30 
+[1|3]. Porcentaje de acierto (TEST)  86.40 
+[2|3]. Porcentaje de acierto (TRAIN) 99.00 
+[2|3]. Porcentaje de acierto (TEST)  85.50 
+Fin del entrenamiento... 211.02 seg
+-------------------------------------------------------
+RN = [ 20 50 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 98.85 
+[3|3]. Porcentaje de acierto (TEST)  87.30 
+[2|3]. Porcentaje de acierto (TRAIN) 99.15 
+[2|3]. Porcentaje de acierto (TEST)  87.00 
+[1|3]. Porcentaje de acierto (TRAIN) 99.50 
+[1|3]. Porcentaje de acierto (TEST)  87.80 
+Fin del entrenamiento... 211.30 seg
+-------------------------------------------------------
+RN = [ 20 60 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 98.70 
+[3|3]. Porcentaje de acierto (TEST)  85.60 
+[1|3]. Porcentaje de acierto (TRAIN) 99.15 
+[1|3]. Porcentaje de acierto (TEST)  87.80 
+[2|3]. Porcentaje de acierto (TRAIN) 99.05 
+[2|3]. Porcentaje de acierto (TEST)  88.70 
+Fin del entrenamiento... 218.48 seg
+-------------------------------------------------------
+RN = [ 20 70 10 ]
+Comienzo del entrenamiento...
+[1|3]. Porcentaje de acierto (TRAIN) 99.45 
+[1|3]. Porcentaje de acierto (TEST)  86.70 
+[3|3]. Porcentaje de acierto (TRAIN) 98.90 
+[3|3]. Porcentaje de acierto (TEST)  86.50 
+[2|3]. Porcentaje de acierto (TRAIN) 99.20 
+[2|3]. Porcentaje de acierto (TEST)  87.30 
+Fin del entrenamiento... 221.57 seg
+-------------------------------------------------------
+RN = [ 20 80 10 ]
+Comienzo del entrenamiento...
+[1|3]. Porcentaje de acierto (TRAIN) 99.25 
+[1|3]. Porcentaje de acierto (TEST)  87.80 
+[3|3]. Porcentaje de acierto (TRAIN) 99.15 
+[3|3]. Porcentaje de acierto (TEST)  87.10 
+[2|3]. Porcentaje de acierto (TRAIN) 99.35 
+[2|3]. Porcentaje de acierto (TEST)  88.30 
+Fin del entrenamiento... 225.95 seg
+-------------------------------------------------------
+RN = [ 20 90 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 99.35 
+[2|3]. Porcentaje de acierto (TEST)  87.80 
+[1|3]. Porcentaje de acierto (TRAIN) 99.05 
+[1|3]. Porcentaje de acierto (TEST)  86.20 
+[3|3]. Porcentaje de acierto (TRAIN) 98.60 
+[3|3]. Porcentaje de acierto (TEST)  87.00 
+Fin del entrenamiento... 225.04 seg
+-------------------------------------------------------
+RN = [ 20 100 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 98.80 
+[2|3]. Porcentaje de acierto (TEST)  86.50 
+[1|3]. Porcentaje de acierto (TRAIN) 98.90 
+[1|3]. Porcentaje de acierto (TEST)  87.00 
+[3|3]. Porcentaje de acierto (TRAIN) 98.20 
+[3|3]. Porcentaje de acierto (TEST)  86.30 
+Fin del entrenamiento... 229.18 seg
+-------------------------------------------------------
+RN = [ 30 10 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 99.15 
+[2|3]. Porcentaje de acierto (TEST)  86.60 
+[3|3]. Porcentaje de acierto (TRAIN) 99.10 
+[3|3]. Porcentaje de acierto (TEST)  85.30 
+[1|3]. Porcentaje de acierto (TRAIN) 99.20 
+[1|3]. Porcentaje de acierto (TEST)  87.40 
+Fin del entrenamiento... 224.97 seg
+-------------------------------------------------------
+RN = [ 30 20 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 99.45 
+[2|3]. Porcentaje de acierto (TEST)  88.70 
+[3|3]. Porcentaje de acierto (TRAIN) 99.20 
+[3|3]. Porcentaje de acierto (TEST)  86.90 
+[1|3]. Porcentaje de acierto (TRAIN) 99.80 
+[1|3]. Porcentaje de acierto (TEST)  87.40 
+Fin del entrenamiento... 231.82 seg
+-------------------------------------------------------
+RN = [ 30 30 10 ]
+Comienzo del entrenamiento...
+[1|3]. Porcentaje de acierto (TRAIN) 99.70 
+[1|3]. Porcentaje de acierto (TEST)  88.20 
+[3|3]. Porcentaje de acierto (TRAIN) 99.35 
+[3|3]. Porcentaje de acierto (TEST)  87.60 
+[2|3]. Porcentaje de acierto (TRAIN) 99.30 
+[2|3]. Porcentaje de acierto (TEST)  89.20 
+Fin del entrenamiento... 235.22 seg
+-------------------------------------------------------
+RN = [ 30 40 10 ]
+Comienzo del entrenamiento...
+[1|3]. Porcentaje de acierto (TRAIN) 99.45 
+[1|3]. Porcentaje de acierto (TEST)  87.30 
+[2|3]. Porcentaje de acierto (TRAIN) 99.50 
+[2|3]. Porcentaje de acierto (TEST)  90.60 
+[3|3]. Porcentaje de acierto (TRAIN) 99.40 
+[3|3]. Porcentaje de acierto (TEST)  88.10 
+Fin del entrenamiento... 238.99 seg
+-------------------------------------------------------
+RN = [ 30 50 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 99.25 
+[2|3]. Porcentaje de acierto (TEST)  88.60 
+[1|3]. Porcentaje de acierto (TRAIN) 99.55 
+[1|3]. Porcentaje de acierto (TEST)  88.20 
+[3|3]. Porcentaje de acierto (TRAIN) 99.05 
+[3|3]. Porcentaje de acierto (TEST)  88.70 
+Fin del entrenamiento... 248.01 seg
+-------------------------------------------------------
+RN = [ 30 60 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 98.95 
+[3|3]. Porcentaje de acierto (TEST)  88.10 
+[2|3]. Porcentaje de acierto (TRAIN) 99.35 
+[2|3]. Porcentaje de acierto (TEST)  89.80 
+[1|3]. Porcentaje de acierto (TRAIN) 99.55 
+[1|3]. Porcentaje de acierto (TEST)  88.50 
+Fin del entrenamiento... 249.67 seg
+-------------------------------------------------------
+RN = [ 30 70 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.30 
+[3|3]. Porcentaje de acierto (TEST)  87.20 
+[2|3]. Porcentaje de acierto (TRAIN) 99.30 
+[2|3]. Porcentaje de acierto (TEST)  89.30 
+[1|3]. Porcentaje de acierto (TRAIN) 99.65 
+[1|3]. Porcentaje de acierto (TEST)  87.80 
+Fin del entrenamiento... 252.86 seg
+-------------------------------------------------------
+RN = [ 30 80 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 99.55 
+[2|3]. Porcentaje de acierto (TEST)  89.20 
+[1|3]. Porcentaje de acierto (TRAIN) 99.40 
+[1|3]. Porcentaje de acierto (TEST)  88.10 
+[3|3]. Porcentaje de acierto (TRAIN) 99.15 
+[3|3]. Porcentaje de acierto (TEST)  87.00 
+Fin del entrenamiento... 258.01 seg
+-------------------------------------------------------
+RN = [ 30 90 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.10 
+[3|3]. Porcentaje de acierto (TEST)  88.70 
+[2|3]. Porcentaje de acierto (TRAIN) 99.40 
+[2|3]. Porcentaje de acierto (TEST)  89.70 
+[1|3]. Porcentaje de acierto (TRAIN) 99.55 
+[1|3]. Porcentaje de acierto (TEST)  88.80 
+Fin del entrenamiento... 260.63 seg
+-------------------------------------------------------
+RN = [ 30 100 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 98.90 
+[3|3]. Porcentaje de acierto (TEST)  88.40 
+[1|3]. Porcentaje de acierto (TRAIN) 99.45 
+[1|3]. Porcentaje de acierto (TEST)  89.20 
+[2|3]. Porcentaje de acierto (TRAIN) 99.40 
+[2|3]. Porcentaje de acierto (TEST)  89.50 
+Fin del entrenamiento... 264.83 seg
+-------------------------------------------------------
+RN = [ 40 10 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 99.45 
+[2|3]. Porcentaje de acierto (TEST)  88.00 
+[1|3]. Porcentaje de acierto (TRAIN) 99.55 
+[1|3]. Porcentaje de acierto (TEST)  86.90 
+[3|3]. Porcentaje de acierto (TRAIN) 99.45 
+[3|3]. Porcentaje de acierto (TEST)  86.00 
+Fin del entrenamiento... 253.27 seg
+-------------------------------------------------------
+RN = [ 40 20 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.55 
+[3|3]. Porcentaje de acierto (TEST)  89.50 
+[2|3]. Porcentaje de acierto (TRAIN) 99.60 
+[2|3]. Porcentaje de acierto (TEST)  90.40 
+[1|3]. Porcentaje de acierto (TRAIN) 99.80 
+[1|3]. Porcentaje de acierto (TEST)  89.50 
+Fin del entrenamiento... 254.74 seg
+-------------------------------------------------------
+RN = [ 40 30 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 99.45 
+[2|3]. Porcentaje de acierto (TEST)  88.50 
+[1|3]. Porcentaje de acierto (TRAIN) 99.70 
+[1|3]. Porcentaje de acierto (TEST)  88.80 
+[3|3]. Porcentaje de acierto (TRAIN) 99.05 
+[3|3]. Porcentaje de acierto (TEST)  88.40 
+Fin del entrenamiento... 265.39 seg
+-------------------------------------------------------
+RN = [ 40 40 10 ]
+Comienzo del entrenamiento...
+[1|3]. Porcentaje de acierto (TRAIN) 99.85 
+[1|3]. Porcentaje de acierto (TEST)  88.70 
+[3|3]. Porcentaje de acierto (TRAIN) 99.45 
+[3|3]. Porcentaje de acierto (TEST)  88.90 
+[2|3]. Porcentaje de acierto (TRAIN) 99.30 
+[2|3]. Porcentaje de acierto (TEST)  88.90 
+Fin del entrenamiento... 272.09 seg
+-------------------------------------------------------
+RN = [ 40 50 10 ]
+Comienzo del entrenamiento...
+[1|3]. Porcentaje de acierto (TRAIN) 99.75 
+[1|3]. Porcentaje de acierto (TEST)  90.60 
+[2|3]. Porcentaje de acierto (TRAIN) 99.60 
+[2|3]. Porcentaje de acierto (TEST)  90.10 
+[3|3]. Porcentaje de acierto (TRAIN) 99.20 
+[3|3]. Porcentaje de acierto (TEST)  88.40 
+Fin del entrenamiento... 287.75 seg
+-------------------------------------------------------
+RN = [ 40 60 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.10 
+[3|3]. Porcentaje de acierto (TEST)  89.10 
+[2|3]. Porcentaje de acierto (TRAIN) 99.60 
+[2|3]. Porcentaje de acierto (TEST)  89.90 
+[1|3]. Porcentaje de acierto (TRAIN) 99.60 
+[1|3]. Porcentaje de acierto (TEST)  89.40 
+Fin del entrenamiento... 290.20 seg
+-------------------------------------------------------
+RN = [ 40 70 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.25 
+[3|3]. Porcentaje de acierto (TEST)  88.50 
+[1|3]. Porcentaje de acierto (TRAIN) 99.60 
+[1|3]. Porcentaje de acierto (TEST)  88.60 
+[2|3]. Porcentaje de acierto (TRAIN) 99.40 
+[2|3]. Porcentaje de acierto (TEST)  90.50 
+Fin del entrenamiento... 297.67 seg
+-------------------------------------------------------
+RN = [ 40 80 10 ]
+Comienzo del entrenamiento...
+[1|3]. Porcentaje de acierto (TRAIN) 99.50 
+[1|3]. Porcentaje de acierto (TEST)  87.80 
+[3|3]. Porcentaje de acierto (TRAIN) 99.10 
+[3|3]. Porcentaje de acierto (TEST)  89.50 
+[2|3]. Porcentaje de acierto (TRAIN) 99.30 
+[2|3]. Porcentaje de acierto (TEST)  89.30 
+Fin del entrenamiento... 297.26 seg
+-------------------------------------------------------
+RN = [ 40 90 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.15 
+[3|3]. Porcentaje de acierto (TEST)  88.30 
+[1|3]. Porcentaje de acierto (TRAIN) 99.75 
+[1|3]. Porcentaje de acierto (TEST)  90.10 
+[2|3]. Porcentaje de acierto (TRAIN) 99.35 
+[2|3]. Porcentaje de acierto (TEST)  89.90 
+Fin del entrenamiento... 303.68 seg
+-------------------------------------------------------
+RN = [ 40 100 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 99.35 
+[2|3]. Porcentaje de acierto (TEST)  89.80 
+[3|3]. Porcentaje de acierto (TRAIN) 99.25 
+[3|3]. Porcentaje de acierto (TEST)  89.10 
+[1|3]. Porcentaje de acierto (TRAIN) 99.45 
+[1|3]. Porcentaje de acierto (TEST)  89.30 
+Fin del entrenamiento... 313.89 seg
+-------------------------------------------------------
+RN = [ 50 10 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.00 
+[3|3]. Porcentaje de acierto (TEST)  88.20 
+[2|3]. Porcentaje de acierto (TRAIN) 99.50 
+[2|3]. Porcentaje de acierto (TEST)  90.20 
+[1|3]. Porcentaje de acierto (TRAIN) 99.50 
+[1|3]. Porcentaje de acierto (TEST)  89.10 
+Fin del entrenamiento... 292.20 seg
+-------------------------------------------------------
+RN = [ 50 20 10 ]
+Comienzo del entrenamiento...
+[1|3]. Porcentaje de acierto (TRAIN) 99.85 
+[2|3]. Porcentaje de acierto (TRAIN) 99.70 
+[2|3]. Porcentaje de acierto (TEST)  90.00 
+[1|3]. Porcentaje de acierto (TEST)  89.70 
+[3|3]. Porcentaje de acierto (TRAIN) 99.35 
+[3|3]. Porcentaje de acierto (TEST)  87.80 
+Fin del entrenamiento... 297.18 seg
+-------------------------------------------------------
+RN = [ 50 30 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.45 
+[3|3]. Porcentaje de acierto (TEST)  89.90 
+[1|3]. Porcentaje de acierto (TRAIN) 99.65 
+[1|3]. Porcentaje de acierto (TEST)  89.40 
+[2|3]. Porcentaje de acierto (TRAIN) 99.40 
+[2|3]. Porcentaje de acierto (TEST)  89.20 
+Fin del entrenamiento... 312.58 seg
+-------------------------------------------------------
+RN = [ 50 40 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.35 
+[3|3]. Porcentaje de acierto (TEST)  88.80 
+[1|3]. Porcentaje de acierto (TRAIN) 99.85 
+[1|3]. Porcentaje de acierto (TEST)  90.10 
+[2|3]. Porcentaje de acierto (TRAIN) 99.65 
+[2|3]. Porcentaje de acierto (TEST)  90.10 
+Fin del entrenamiento... 320.59 seg
+-------------------------------------------------------
+RN = [ 50 50 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 99.45 
+[2|3]. Porcentaje de acierto (TEST)  90.00 
+[1|3]. Porcentaje de acierto (TRAIN) 99.70 
+[1|3]. Porcentaje de acierto (TEST)  89.80 
+[3|3]. Porcentaje de acierto (TRAIN) 99.40 
+[3|3]. Porcentaje de acierto (TEST)  88.90 
+Fin del entrenamiento... 329.19 seg
+-------------------------------------------------------
+RN = [ 50 60 10 ]
+Comienzo del entrenamiento...
+[1|3]. Porcentaje de acierto (TRAIN) 99.60 
+[1|3]. Porcentaje de acierto (TEST)  88.90 
+[3|3]. Porcentaje de acierto (TRAIN) 99.15 
+[3|3]. Porcentaje de acierto (TEST)  89.30 
+[2|3]. Porcentaje de acierto (TRAIN) 99.55 
+[2|3]. Porcentaje de acierto (TEST)  89.50 
+Fin del entrenamiento... 333.19 seg
+-------------------------------------------------------
+RN = [ 50 70 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.15 
+[3|3]. Porcentaje de acierto (TEST)  90.10 
+[2|3]. Porcentaje de acierto (TRAIN) 99.60 
+[2|3]. Porcentaje de acierto (TEST)  90.40 
+[1|3]. Porcentaje de acierto (TRAIN) 99.60 
+[1|3]. Porcentaje de acierto (TEST)  90.60 
+Fin del entrenamiento... 353.88 seg
+-------------------------------------------------------
+RN = [ 50 80 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.25 
+[3|3]. Porcentaje de acierto (TEST)  89.30 
+[1|3]. Porcentaje de acierto (TRAIN) 99.55 
+[1|3]. Porcentaje de acierto (TEST)  90.40 
+[2|3]. Porcentaje de acierto (TRAIN) 99.20 
+[2|3]. Porcentaje de acierto (TEST)  90.70 
+Fin del entrenamiento... 362.66 seg
+-------------------------------------------------------
+RN = [ 50 90 10 ]
+Comienzo del entrenamiento...
+[1|3]. Porcentaje de acierto (TRAIN) 99.85 
+[1|3]. Porcentaje de acierto (TEST)  89.70 
+[2|3]. Porcentaje de acierto (TRAIN) 99.60 
+[2|3]. Porcentaje de acierto (TEST)  90.90 
+[3|3]. Porcentaje de acierto (TRAIN) 99.25 
+[3|3]. Porcentaje de acierto (TEST)  88.30 
+Fin del entrenamiento... 365.14 seg
+-------------------------------------------------------
+RN = [ 50 100 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.30 
+[3|3]. Porcentaje de acierto (TEST)  88.60 
+[2|3]. Porcentaje de acierto (TRAIN) 99.50 
+[2|3]. Porcentaje de acierto (TEST)  91.50 
+[1|3]. Porcentaje de acierto (TRAIN) 99.55 
+[1|3]. Porcentaje de acierto (TEST)  89.70 
+Fin del entrenamiento... 384.72 seg
+-------------------------------------------------------
+RN = [ 60 10 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.40 
+[3|3]. Porcentaje de acierto (TEST)  89.10 
+[1|3]. Porcentaje de acierto (TRAIN) 99.55 
+[1|3]. Porcentaje de acierto (TEST)  89.50 
+[2|3]. Porcentaje de acierto (TRAIN) 99.45 
+[2|3]. Porcentaje de acierto (TEST)  89.60 
+Fin del entrenamiento... 346.88 seg
+-------------------------------------------------------
+RN = [ 60 20 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.40 
+[3|3]. Porcentaje de acierto (TEST)  88.90 
+[1|3]. Porcentaje de acierto (TRAIN) 99.80 
+[1|3]. Porcentaje de acierto (TEST)  90.50 
+[2|3]. Porcentaje de acierto (TRAIN) 99.60 
+[2|3]. Porcentaje de acierto (TEST)  90.60 
+Fin del entrenamiento... 357.12 seg
+-------------------------------------------------------
+RN = [ 60 30 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.40 
+[3|3]. Porcentaje de acierto (TEST)  88.50 
+[2|3]. Porcentaje de acierto (TRAIN) 99.45 
+[2|3]. Porcentaje de acierto (TEST)  90.20 
+[1|3]. Porcentaje de acierto (TRAIN) 99.65 
+[1|3]. Porcentaje de acierto (TEST)  90.70 
+Fin del entrenamiento... 373.81 seg
+-------------------------------------------------------
+RN = [ 60 40 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.50 
+[3|3]. Porcentaje de acierto (TEST)  88.40 
+[1|3]. Porcentaje de acierto (TRAIN) 99.85 
+[2|3]. Porcentaje de acierto (TRAIN) 99.55 
+[2|3]. Porcentaje de acierto (TEST)  89.80 
+[1|3]. Porcentaje de acierto (TEST)  89.40 
+Fin del entrenamiento... 382.81 seg
+-------------------------------------------------------
+RN = [ 60 50 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.45 
+[3|3]. Porcentaje de acierto (TEST)  89.80 
+[2|3]. Porcentaje de acierto (TRAIN) 99.50 
+[2|3]. Porcentaje de acierto (TEST)  90.40 
+[1|3]. Porcentaje de acierto (TRAIN) 99.75 
+[1|3]. Porcentaje de acierto (TEST)  89.30 
+Fin del entrenamiento... 404.93 seg
+-------------------------------------------------------
+RN = [ 60 60 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 99.65 
+[2|3]. Porcentaje de acierto (TEST)  90.30 
+[3|3]. Porcentaje de acierto (TRAIN) 99.30 
+[3|3]. Porcentaje de acierto (TEST)  89.20 
+[1|3]. Porcentaje de acierto (TRAIN) 99.85 
+[1|3]. Porcentaje de acierto (TEST)  89.50 
+Fin del entrenamiento... 383.93 seg
+-------------------------------------------------------
+RN = [ 60 70 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.15 
+[3|3]. Porcentaje de acierto (TEST)  90.10 
+[1|3]. Porcentaje de acierto (TRAIN) 99.80 
+[1|3]. Porcentaje de acierto (TEST)  89.90 
+[2|3]. Porcentaje de acierto (TRAIN) 99.65 
+[2|3]. Porcentaje de acierto (TEST)  90.10 
+Fin del entrenamiento... 400.35 seg
+-------------------------------------------------------
+RN = [ 60 80 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.45 
+[3|3]. Porcentaje de acierto (TEST)  89.30 
+[2|3]. Porcentaje de acierto (TRAIN) 99.45 
+[2|3]. Porcentaje de acierto (TEST)  90.10 
+[1|3]. Porcentaje de acierto (TRAIN) 99.45 
+[1|3]. Porcentaje de acierto (TEST)  90.10 
+Fin del entrenamiento... 409.59 seg
+-------------------------------------------------------
+RN = [ 60 90 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.45 
+[3|3]. Porcentaje de acierto (TEST)  89.10 
+[2|3]. Porcentaje de acierto (TRAIN) 99.35 
+[2|3]. Porcentaje de acierto (TEST)  89.80 
+[1|3]. Porcentaje de acierto (TRAIN) 99.60 
+[1|3]. Porcentaje de acierto (TEST)  88.80 
+Fin del entrenamiento... 435.80 seg
+-------------------------------------------------------
+RN = [ 60 100 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 99.55 
+[2|3]. Porcentaje de acierto (TEST)  90.30 
+[3|3]. Porcentaje de acierto (TRAIN) 99.45 
+[3|3]. Porcentaje de acierto (TEST)  89.70 
+[1|3]. Porcentaje de acierto (TRAIN) 99.65 
+[1|3]. Porcentaje de acierto (TEST)  89.10 
+Fin del entrenamiento... 428.63 seg
+-------------------------------------------------------
+RN = [ 70 10 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.35 
+[3|3]. Porcentaje de acierto (TEST)  88.90 
+[2|3]. Porcentaje de acierto (TRAIN) 99.45 
+[2|3]. Porcentaje de acierto (TEST)  89.30 
+[1|3]. Porcentaje de acierto (TRAIN) 99.70 
+[1|3]. Porcentaje de acierto (TEST)  89.10 
+Fin del entrenamiento... 398.43 seg
+-------------------------------------------------------
+RN = [ 70 20 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 99.75 
+[2|3]. Porcentaje de acierto (TEST)  88.30 
+[3|3]. Porcentaje de acierto (TRAIN) 99.45 
+[3|3]. Porcentaje de acierto (TEST)  89.50 
+[1|3]. Porcentaje de acierto (TRAIN) 99.70 
+[1|3]. Porcentaje de acierto (TEST)  89.80 
+Fin del entrenamiento... 414.94 seg
+-------------------------------------------------------
+RN = [ 70 30 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 99.50 
+[2|3]. Porcentaje de acierto (TEST)  90.20 
+[1|3]. Porcentaje de acierto (TRAIN) 99.85 
+[1|3]. Porcentaje de acierto (TEST)  90.40 
+[3|3]. Porcentaje de acierto (TRAIN) 99.45 
+[3|3]. Porcentaje de acierto (TEST)  89.40 
+Fin del entrenamiento... 411.18 seg
+-------------------------------------------------------
+RN = [ 70 40 10 ]
+Comienzo del entrenamiento...
+[1|3]. Porcentaje de acierto (TRAIN) 99.65 
+[1|3]. Porcentaje de acierto (TEST)  90.00 
+[2|3]. Porcentaje de acierto (TRAIN) 99.60 
+[2|3]. Porcentaje de acierto (TEST)  91.50 
+[3|3]. Porcentaje de acierto (TRAIN) 99.55 
+[3|3]. Porcentaje de acierto (TEST)  88.30 
+Fin del entrenamiento... 455.15 seg
+-------------------------------------------------------
+RN = [ 70 50 10 ]
+Comienzo del entrenamiento...
+[1|3]. Porcentaje de acierto (TRAIN) 99.75 
+[1|3]. Porcentaje de acierto (TEST)  90.00 
+[3|3]. Porcentaje de acierto (TRAIN) 99.40 
+[3|3]. Porcentaje de acierto (TEST)  90.10 
+[2|3]. Porcentaje de acierto (TRAIN) 99.60 
+[2|3]. Porcentaje de acierto (TEST)  90.10 
+Fin del entrenamiento... 438.61 seg
+-------------------------------------------------------
+RN = [ 70 60 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.50 
+[3|3]. Porcentaje de acierto (TEST)  89.80 
+[1|3]. Porcentaje de acierto (TRAIN) 99.75 
+[1|3]. Porcentaje de acierto (TEST)  90.10 
+[2|3]. Porcentaje de acierto (TRAIN) 99.55 
+[2|3]. Porcentaje de acierto (TEST)  90.30 
+Fin del entrenamiento... 451.87 seg
+-------------------------------------------------------
+RN = [ 70 70 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.50 
+[3|3]. Porcentaje de acierto (TEST)  89.20 
+[1|3]. Porcentaje de acierto (TRAIN) 99.75 
+[1|3]. Porcentaje de acierto (TEST)  90.00 
+[2|3]. Porcentaje de acierto (TRAIN) 99.40 
+[2|3]. Porcentaje de acierto (TEST)  90.10 
+Fin del entrenamiento... 481.72 seg
+-------------------------------------------------------
+RN = [ 70 80 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 99.30 
+[2|3]. Porcentaje de acierto (TEST)  90.60 
+[1|3]. Porcentaje de acierto (TRAIN) 99.60 
+[1|3]. Porcentaje de acierto (TEST)  90.60 
+[3|3]. Porcentaje de acierto (TRAIN) 99.35 
+[3|3]. Porcentaje de acierto (TEST)  90.70 
+Fin del entrenamiento... 480.82 seg
+-------------------------------------------------------
+RN = [ 70 90 10 ]
+Comienzo del entrenamiento...
+[1|3]. Porcentaje de acierto (TRAIN) 99.50 
+[1|3]. Porcentaje de acierto (TEST)  90.70 
+[2|3]. Porcentaje de acierto (TRAIN) 99.45 
+[2|3]. Porcentaje de acierto (TEST)  91.20 
+[3|3]. Porcentaje de acierto (TRAIN) 99.20 
+[3|3]. Porcentaje de acierto (TEST)  89.20 
+Fin del entrenamiento... 457.34 seg
+-------------------------------------------------------
+RN = [ 70 100 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.20 
+[3|3]. Porcentaje de acierto (TEST)  90.10 
+[1|3]. Porcentaje de acierto (TRAIN) 99.55 
+[1|3]. Porcentaje de acierto (TEST)  89.40 
+[2|3]. Porcentaje de acierto (TRAIN) 99.60 
+[2|3]. Porcentaje de acierto (TEST)  90.90 
+Fin del entrenamiento... 507.32 seg
+-------------------------------------------------------
+RN = [ 80 10 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.00 
+[3|3]. Porcentaje de acierto (TEST)  87.30 
+[1|3]. Porcentaje de acierto (TRAIN) 99.70 
+[1|3]. Porcentaje de acierto (TEST)  90.00 
+[2|3]. Porcentaje de acierto (TRAIN) 99.30 
+[2|3]. Porcentaje de acierto (TEST)  89.10 
+Fin del entrenamiento... 438.60 seg
+-------------------------------------------------------
+RN = [ 80 20 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.50 
+[3|3]. Porcentaje de acierto (TEST)  88.60 
+[1|3]. Porcentaje de acierto (TRAIN) 99.90 
+[1|3]. Porcentaje de acierto (TEST)  90.40 
+[2|3]. Porcentaje de acierto (TRAIN) 99.50 
+[2|3]. Porcentaje de acierto (TEST)  90.20 
+Fin del entrenamiento... 446.34 seg
+-------------------------------------------------------
+RN = [ 80 30 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.45 
+[3|3]. Porcentaje de acierto (TEST)  90.30 
+[2|3]. Porcentaje de acierto (TRAIN) 99.60 
+[2|3]. Porcentaje de acierto (TEST)  91.20 
+[1|3]. Porcentaje de acierto (TRAIN) 99.80 
+[1|3]. Porcentaje de acierto (TEST)  90.30 
+Fin del entrenamiento... 457.62 seg
+-------------------------------------------------------
+RN = [ 80 40 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.40 
+[3|3]. Porcentaje de acierto (TEST)  89.70 
+[1|3]. Porcentaje de acierto (TRAIN) 99.75 
+[1|3]. Porcentaje de acierto (TEST)  89.80 
+[2|3]. Porcentaje de acierto (TRAIN) 99.55 
+[2|3]. Porcentaje de acierto (TEST)  89.70 
+Fin del entrenamiento... 486.54 seg
+-------------------------------------------------------
+RN = [ 80 50 10 ]
+Comienzo del entrenamiento...
+[1|3]. Porcentaje de acierto (TRAIN) 99.60 
+[1|3]. Porcentaje de acierto (TEST)  89.90 
+[3|3]. Porcentaje de acierto (TRAIN) 99.40 
+[3|3]. Porcentaje de acierto (TEST)  90.30 
+[2|3]. Porcentaje de acierto (TRAIN) 99.65 
+[2|3]. Porcentaje de acierto (TEST)  91.10 
+Fin del entrenamiento... 485.92 seg
+-------------------------------------------------------
+RN = [ 80 60 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.05 
+[3|3]. Porcentaje de acierto (TEST)  89.50 
+[2|3]. Porcentaje de acierto (TRAIN) 99.50 
+[2|3]. Porcentaje de acierto (TEST)  90.40 
+[1|3]. Porcentaje de acierto (TRAIN) 99.75 
+[1|3]. Porcentaje de acierto (TEST)  89.50 
+Fin del entrenamiento... 522.80 seg
+-------------------------------------------------------
+RN = [ 80 70 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.45 
+[3|3]. Porcentaje de acierto (TEST)  89.40 
+[2|3]. Porcentaje de acierto (TRAIN) 99.60 
+[2|3]. Porcentaje de acierto (TEST)  90.20 
+[1|3]. Porcentaje de acierto (TRAIN) 99.70 
+[1|3]. Porcentaje de acierto (TEST)  89.80 
+Fin del entrenamiento... 523.57 seg
+-------------------------------------------------------
+RN = [ 80 80 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.25 
+[3|3]. Porcentaje de acierto (TEST)  89.20 
+[2|3]. Porcentaje de acierto (TRAIN) 99.40 
+[2|3]. Porcentaje de acierto (TEST)  90.20 
+[1|3]. Porcentaje de acierto (TRAIN) 99.65 
+[1|3]. Porcentaje de acierto (TEST)  90.00 
+Fin del entrenamiento... 532.00 seg
+-------------------------------------------------------
+RN = [ 80 90 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.50 
+[3|3]. Porcentaje de acierto (TEST)  89.70 
+[1|3]. Porcentaje de acierto (TRAIN) 99.65 
+[1|3]. Porcentaje de acierto (TEST)  90.60 
+[2|3]. Porcentaje de acierto (TRAIN) 99.35 
+[2|3]. Porcentaje de acierto (TEST)  90.30 
+Fin del entrenamiento... 539.45 seg
+-------------------------------------------------------
+RN = [ 80 100 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.30 
+[3|3]. Porcentaje de acierto (TEST)  89.30 
+[2|3]. Porcentaje de acierto (TRAIN) 99.45 
+[2|3]. Porcentaje de acierto (TEST)  90.30 
+[1|3]. Porcentaje de acierto (TRAIN) 99.55 
+[1|3]. Porcentaje de acierto (TEST)  90.90 
+Fin del entrenamiento... 585.88 seg
+-------------------------------------------------------
+RN = [ 90 10 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 98.65 
+[3|3]. Porcentaje de acierto (TEST)  86.10 
+[2|3]. Porcentaje de acierto (TRAIN) 99.10 
+[2|3]. Porcentaje de acierto (TEST)  89.40 
+[1|3]. Porcentaje de acierto (TRAIN) 99.55 
+[1|3]. Porcentaje de acierto (TEST)  87.70 
+Fin del entrenamiento... 528.92 seg
+-------------------------------------------------------
+RN = [ 90 20 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.55 
+[3|3]. Porcentaje de acierto (TEST)  89.60 
+[1|3]. Porcentaje de acierto (TRAIN) 99.65 
+[1|3]. Porcentaje de acierto (TEST)  90.20 
+[2|3]. Porcentaje de acierto (TRAIN) 99.65 
+[2|3]. Porcentaje de acierto (TEST)  90.10 
+Fin del entrenamiento... 514.33 seg
+-------------------------------------------------------
+RN = [ 90 30 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.55 
+[3|3]. Porcentaje de acierto (TEST)  89.50 
+[2|3]. Porcentaje de acierto (TRAIN) 99.70 
+[2|3]. Porcentaje de acierto (TEST)  90.40 
+[1|3]. Porcentaje de acierto (TRAIN) 99.75 
+[1|3]. Porcentaje de acierto (TEST)  90.10 
+Fin del entrenamiento... 536.00 seg
+-------------------------------------------------------
+RN = [ 90 40 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.45 
+[3|3]. Porcentaje de acierto (TEST)  89.20 
+[2|3]. Porcentaje de acierto (TRAIN) 99.70 
+[2|3]. Porcentaje de acierto (TEST)  90.70 
+[1|3]. Porcentaje de acierto (TRAIN) 99.85 
+[1|3]. Porcentaje de acierto (TEST)  89.40 
+Fin del entrenamiento... 550.11 seg
+-------------------------------------------------------
+RN = [ 90 50 10 ]
+Comienzo del entrenamiento...
+[1|3]. Porcentaje de acierto (TRAIN) 99.75 
+[1|3]. Porcentaje de acierto (TEST)  89.40 
+[3|3]. Porcentaje de acierto (TRAIN) 99.40 
+[3|3]. Porcentaje de acierto (TEST)  89.70 
+[2|3]. Porcentaje de acierto (TRAIN) 99.65 
+[2|3]. Porcentaje de acierto (TEST)  89.10 
+Fin del entrenamiento... 573.86 seg
+-------------------------------------------------------
+RN = [ 90 60 10 ]
+Comienzo del entrenamiento...
+[1|3]. Porcentaje de acierto (TRAIN) 99.65 
+[1|3]. Porcentaje de acierto (TEST)  89.80 
+[3|3]. Porcentaje de acierto (TRAIN) 99.45 
+[3|3]. Porcentaje de acierto (TEST)  90.30 
+[2|3]. Porcentaje de acierto (TRAIN) 99.55 
+[2|3]. Porcentaje de acierto (TEST)  91.20 
+Fin del entrenamiento... 591.63 seg
+-------------------------------------------------------
+RN = [ 90 70 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.45 
+[3|3]. Porcentaje de acierto (TEST)  90.10 
+[2|3]. Porcentaje de acierto (TRAIN) 99.45 
+[2|3]. Porcentaje de acierto (TEST)  90.40 
+[1|3]. Porcentaje de acierto (TRAIN) 99.75 
+[1|3]. Porcentaje de acierto (TEST)  90.30 
+Fin del entrenamiento... 580.30 seg
+-------------------------------------------------------
+RN = [ 90 80 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 99.65 
+[2|3]. Porcentaje de acierto (TEST)  89.80 
+[1|3]. Porcentaje de acierto (TRAIN) 99.65 
+[1|3]. Porcentaje de acierto (TEST)  89.30 
+[3|3]. Porcentaje de acierto (TRAIN) 99.55 
+[3|3]. Porcentaje de acierto (TEST)  90.10 
+Fin del entrenamiento... 602.20 seg
+-------------------------------------------------------
+RN = [ 90 90 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 99.50 
+[2|3]. Porcentaje de acierto (TEST)  91.30 
+[3|3]. Porcentaje de acierto (TRAIN) 99.55 
+[3|3]. Porcentaje de acierto (TEST)  89.60 
+[1|3]. Porcentaje de acierto (TRAIN) 99.35 
+[1|3]. Porcentaje de acierto (TEST)  90.00 
+Fin del entrenamiento... 587.28 seg
+-------------------------------------------------------
+RN = [ 90 100 10 ]
+Comienzo del entrenamiento...
+[1|3]. Porcentaje de acierto (TRAIN) 99.70 
+[1|3]. Porcentaje de acierto (TEST)  90.60 
+[2|3]. Porcentaje de acierto (TRAIN) 99.55 
+[2|3]. Porcentaje de acierto (TEST)  89.80 
+[3|3]. Porcentaje de acierto (TRAIN) 99.40 
+[3|3]. Porcentaje de acierto (TEST)  89.50 
+Fin del entrenamiento... 627.69 seg
+-------------------------------------------------------
+RN = [ 100 10 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.50 
+[3|3]. Porcentaje de acierto (TEST)  88.60 
+[2|3]. Porcentaje de acierto (TRAIN) 99.35 
+[2|3]. Porcentaje de acierto (TEST)  90.10 
+[1|3]. Porcentaje de acierto (TRAIN) 99.90 
+[1|3]. Porcentaje de acierto (TEST)  90.00 
+Fin del entrenamiento... 550.49 seg
+-------------------------------------------------------
+RN = [ 100 20 10 ]
+Comienzo del entrenamiento...
+[1|3]. Porcentaje de acierto (TRAIN) 99.75 
+[1|3]. Porcentaje de acierto (TEST)  90.50 
+[2|3]. Porcentaje de acierto (TRAIN) 99.80 
+[2|3]. Porcentaje de acierto (TEST)  90.80 
+[3|3]. Porcentaje de acierto (TRAIN) 99.65 
+[3|3]. Porcentaje de acierto (TEST)  89.30 
+Fin del entrenamiento... 569.38 seg
+-------------------------------------------------------
+RN = [ 100 30 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 99.55 
+[2|3]. Porcentaje de acierto (TEST)  91.00 
+[1|3]. Porcentaje de acierto (TRAIN) 99.75 
+[1|3]. Porcentaje de acierto (TEST)  90.60 
+[3|3]. Porcentaje de acierto (TRAIN) 99.10 
+[3|3]. Porcentaje de acierto (TEST)  89.00 
+Fin del entrenamiento... 591.42 seg
+-------------------------------------------------------
+RN = [ 100 40 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 99.70 
+[2|3]. Porcentaje de acierto (TEST)  90.70 
+[1|3]. Porcentaje de acierto (TRAIN) 99.80 
+[1|3]. Porcentaje de acierto (TEST)  91.30 
+[3|3]. Porcentaje de acierto (TRAIN) 99.65 
+[3|3]. Porcentaje de acierto (TEST)  90.50 
+Fin del entrenamiento... 587.98 seg
+-------------------------------------------------------
+RN = [ 100 50 10 ]
+Comienzo del entrenamiento...
+[1|3]. Porcentaje de acierto (TRAIN) 99.55 
+[1|3]. Porcentaje de acierto (TEST)  89.70 
+[3|3]. Porcentaje de acierto (TRAIN) 99.50 
+[3|3]. Porcentaje de acierto (TEST)  89.50 
+[2|3]. Porcentaje de acierto (TRAIN) 99.55 
+[2|3]. Porcentaje de acierto (TEST)  90.40 
+Fin del entrenamiento... 611.99 seg
+-------------------------------------------------------
+RN = [ 100 60 10 ]
+Comienzo del entrenamiento...
+[1|3]. Porcentaje de acierto (TRAIN) 99.75 
+[1|3]. Porcentaje de acierto (TEST)  89.70 
+[2|3]. Porcentaje de acierto (TRAIN) 99.60 
+[2|3]. Porcentaje de acierto (TEST)  90.20 
+[3|3]. Porcentaje de acierto (TRAIN) 99.25 
+[3|3]. Porcentaje de acierto (TEST)  89.80 
+Fin del entrenamiento... 616.52 seg
+-------------------------------------------------------
+RN = [ 100 70 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.45 
+[3|3]. Porcentaje de acierto (TEST)  89.70 
+[2|3]. Porcentaje de acierto (TRAIN) 99.35 
+[2|3]. Porcentaje de acierto (TEST)  89.80 
+[1|3]. Porcentaje de acierto (TRAIN) 99.75 
+[1|3]. Porcentaje de acierto (TEST)  90.90 
+Fin del entrenamiento... 641.97 seg
+-------------------------------------------------------
+RN = [ 100 80 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 99.55 
+[2|3]. Porcentaje de acierto (TEST)  91.00 
+[3|3]. Porcentaje de acierto (TRAIN) 99.45 
+[3|3]. Porcentaje de acierto (TEST)  89.60 
+[1|3]. Porcentaje de acierto (TRAIN) 99.75 
+[1|3]. Porcentaje de acierto (TEST)  90.10 
+Fin del entrenamiento... 671.97 seg
+-------------------------------------------------------
+RN = [ 100 90 10 ]
+Comienzo del entrenamiento...
+[2|3]. Porcentaje de acierto (TRAIN) 99.55 
+[2|3]. Porcentaje de acierto (TEST)  90.80 
+[3|3]. Porcentaje de acierto (TRAIN) 99.45 
+[3|3]. Porcentaje de acierto (TEST)  89.00 
+[1|3]. Porcentaje de acierto (TRAIN) 99.80 
+[1|3]. Porcentaje de acierto (TEST)  88.80 
+Fin del entrenamiento... 655.99 seg
+-------------------------------------------------------
+RN = [ 100 100 10 ]
+Comienzo del entrenamiento...
+[3|3]. Porcentaje de acierto (TRAIN) 99.30 
+[3|3]. Porcentaje de acierto (TEST)  90.20 
+[1|3]. Porcentaje de acierto (TRAIN) 99.65 
+[1|3]. Porcentaje de acierto (TEST)  90.20 
+[2|3]. Porcentaje de acierto (TRAIN) 99.60 
+[2|3]. Porcentaje de acierto (TEST)  91.00 
+Fin del entrenamiento... 700.59 seg
+-------------------------------------------------------
+Fin:                2015-11-18 09:44:14
+Tiempo total:       38165.08 seg (636.08 min - 10.60 hr)
+Entrenamiento:      150 Epocas
+Mejor arquitectura: [ 100 40 10 ]
+Datos de Ent. / Val. / Prueba (3 conjuntos): 2000 / 1000 / 1000
+Promedios:
+ENTRENAMIENTO:      99.72 % (stdev 0.08)
+PRUEBA:             90.83 % (stdev 0.42)

@@ -1,0 +1,237 @@
+Inicio:             2015-11-17 17:54:08
+Reading MNIST Dataset ...
+Class		 0	 1	 2	 3	 4	 5	 6	 7	 8	 9	 Total
+Training:	 5923	 6742	 5958	 6131	 5842	 5421	 5918	 6265	 5851	 5949	 60000
+Testing:	 980	 1135	 1032	 1010	 982	 892	 958	 1028	 974	 1009	 10000
+RN = [ 40 100 10 ]
+Comienzo del entrenamiento...
+Porcentaje de acierto (VAL)   93.32, 1 Epocas 
+Porcentaje de acierto (VAL)   93.67, 2 Epocas 
+Porcentaje de acierto (VAL)   95.02, 3 Epocas 
+Porcentaje de acierto (VAL)   95.40, 4 Epocas 
+Porcentaje de acierto (VAL)   95.73, 5 Epocas 
+Porcentaje de acierto (VAL)   95.77, 6 Epocas 
+Porcentaje de acierto (VAL)   95.90, 7 Epocas 
+Porcentaje de acierto (VAL)   96.12, 8 Epocas 
+Porcentaje de acierto (VAL)   95.72, 9 Epocas 
+Porcentaje de acierto (VAL)   96.12, 10 Epocas 
+Porcentaje de acierto (VAL)   95.88, 11 Epocas 
+Porcentaje de acierto (VAL)   96.52, 12 Epocas 
+Porcentaje de acierto (VAL)   96.40, 13 Epocas 
+Porcentaje de acierto (VAL)   96.12, 14 Epocas 
+Porcentaje de acierto (VAL)   95.98, 15 Epocas 
+Porcentaje de acierto (VAL)   95.50, 16 Epocas 
+Porcentaje de acierto (VAL)   96.22, 17 Epocas 
+Porcentaje de acierto (VAL)   96.22, 18 Epocas 
+Porcentaje de acierto (VAL)   96.08, 19 Epocas 
+Porcentaje de acierto (VAL)   96.35, 20 Epocas 
+[1|10]. Porcentaje de acierto (TRAIN) 97.66 
+[1|10]. Porcentaje de acierto (TEST)  96.09 
+Porcentaje de acierto (VAL)   90.83, 1 Epocas 
+Porcentaje de acierto (VAL)   92.78, 2 Epocas 
+Porcentaje de acierto (VAL)   92.76, 3 Epocas 
+Porcentaje de acierto (VAL)   93.07, 4 Epocas 
+Porcentaje de acierto (VAL)   93.72, 5 Epocas 
+Porcentaje de acierto (VAL)   93.70, 6 Epocas 
+Porcentaje de acierto (VAL)   94.26, 7 Epocas 
+Porcentaje de acierto (VAL)   94.83, 8 Epocas 
+Porcentaje de acierto (VAL)   94.37, 9 Epocas 
+Porcentaje de acierto (VAL)   94.15, 10 Epocas 
+Porcentaje de acierto (VAL)   95.33, 11 Epocas 
+Porcentaje de acierto (VAL)   94.63, 12 Epocas 
+Porcentaje de acierto (VAL)   94.43, 13 Epocas 
+Porcentaje de acierto (VAL)   95.69, 14 Epocas 
+Porcentaje de acierto (VAL)   95.39, 15 Epocas 
+Porcentaje de acierto (VAL)   94.93, 16 Epocas 
+Porcentaje de acierto (VAL)   95.43, 17 Epocas 
+Porcentaje de acierto (VAL)   95.48, 18 Epocas 
+Porcentaje de acierto (VAL)   95.44, 19 Epocas 
+Porcentaje de acierto (VAL)   95.76, 20 Epocas 
+[2|10]. Porcentaje de acierto (TRAIN) 97.93 
+[2|10]. Porcentaje de acierto (TEST)  96.11 
+Porcentaje de acierto (VAL)   91.71, 1 Epocas 
+Porcentaje de acierto (VAL)   93.60, 2 Epocas 
+Porcentaje de acierto (VAL)   93.83, 3 Epocas 
+Porcentaje de acierto (VAL)   94.71, 4 Epocas 
+Porcentaje de acierto (VAL)   94.96, 5 Epocas 
+Porcentaje de acierto (VAL)   95.31, 6 Epocas 
+Porcentaje de acierto (VAL)   95.02, 7 Epocas 
+Porcentaje de acierto (VAL)   95.70, 8 Epocas 
+Porcentaje de acierto (VAL)   95.58, 9 Epocas 
+Porcentaje de acierto (VAL)   95.43, 10 Epocas 
+Porcentaje de acierto (VAL)   95.47, 11 Epocas 
+Porcentaje de acierto (VAL)   95.60, 12 Epocas 
+Porcentaje de acierto (VAL)   95.91, 13 Epocas 
+Porcentaje de acierto (VAL)   95.64, 14 Epocas 
+Porcentaje de acierto (VAL)   95.47, 15 Epocas 
+Porcentaje de acierto (VAL)   95.49, 16 Epocas 
+Porcentaje de acierto (VAL)   95.86, 17 Epocas 
+Porcentaje de acierto (VAL)   96.05, 18 Epocas 
+Porcentaje de acierto (VAL)   95.88, 19 Epocas 
+Porcentaje de acierto (VAL)   95.43, 20 Epocas 
+[3|10]. Porcentaje de acierto (TRAIN) 97.32 
+[3|10]. Porcentaje de acierto (TEST)  95.45 
+Porcentaje de acierto (VAL)   88.82, 1 Epocas 
+Porcentaje de acierto (VAL)   91.63, 2 Epocas 
+Porcentaje de acierto (VAL)   92.52, 3 Epocas 
+Porcentaje de acierto (VAL)   93.71, 4 Epocas 
+Porcentaje de acierto (VAL)   93.26, 5 Epocas 
+Porcentaje de acierto (VAL)   94.03, 6 Epocas 
+Porcentaje de acierto (VAL)   94.31, 7 Epocas 
+Porcentaje de acierto (VAL)   94.58, 8 Epocas 
+Porcentaje de acierto (VAL)   94.35, 9 Epocas 
+Porcentaje de acierto (VAL)   94.58, 10 Epocas 
+Porcentaje de acierto (VAL)   94.03, 11 Epocas 
+Porcentaje de acierto (VAL)   94.03, 12 Epocas 
+Porcentaje de acierto (VAL)   94.58, 13 Epocas 
+Porcentaje de acierto (VAL)   95.02, 14 Epocas 
+Porcentaje de acierto (VAL)   94.31, 15 Epocas 
+Porcentaje de acierto (VAL)   94.99, 16 Epocas 
+Porcentaje de acierto (VAL)   95.27, 17 Epocas 
+Porcentaje de acierto (VAL)   94.74, 18 Epocas 
+Porcentaje de acierto (VAL)   95.34, 19 Epocas 
+Porcentaje de acierto (VAL)   94.92, 20 Epocas 
+[4|10]. Porcentaje de acierto (TRAIN) 97.74 
+[4|10]. Porcentaje de acierto (TEST)  96.00 
+Porcentaje de acierto (VAL)   90.73, 1 Epocas 
+Porcentaje de acierto (VAL)   92.38, 2 Epocas 
+Porcentaje de acierto (VAL)   93.47, 3 Epocas 
+Porcentaje de acierto (VAL)   92.86, 4 Epocas 
+Porcentaje de acierto (VAL)   93.98, 5 Epocas 
+Porcentaje de acierto (VAL)   94.08, 6 Epocas 
+Porcentaje de acierto (VAL)   94.16, 7 Epocas 
+Porcentaje de acierto (VAL)   94.66, 8 Epocas 
+Porcentaje de acierto (VAL)   94.66, 9 Epocas 
+Porcentaje de acierto (VAL)   95.68, 10 Epocas 
+Porcentaje de acierto (VAL)   94.74, 11 Epocas 
+Porcentaje de acierto (VAL)   94.84, 12 Epocas 
+Porcentaje de acierto (VAL)   94.99, 13 Epocas 
+Porcentaje de acierto (VAL)   94.74, 14 Epocas 
+Porcentaje de acierto (VAL)   94.77, 15 Epocas 
+Porcentaje de acierto (VAL)   94.97, 16 Epocas 
+Porcentaje de acierto (VAL)   95.43, 17 Epocas 
+Porcentaje de acierto (VAL)   95.33, 18 Epocas 
+Porcentaje de acierto (VAL)   95.15, 19 Epocas 
+Porcentaje de acierto (VAL)   95.22, 20 Epocas 
+[5|10]. Porcentaje de acierto (TRAIN) 97.92 
+[5|10]. Porcentaje de acierto (TEST)  96.11 
+Porcentaje de acierto (VAL)   91.17, 1 Epocas 
+Porcentaje de acierto (VAL)   92.04, 2 Epocas 
+Porcentaje de acierto (VAL)   92.80, 3 Epocas 
+Porcentaje de acierto (VAL)   93.48, 4 Epocas 
+Porcentaje de acierto (VAL)   93.25, 5 Epocas 
+Porcentaje de acierto (VAL)   92.61, 6 Epocas 
+Porcentaje de acierto (VAL)   93.62, 7 Epocas 
+Porcentaje de acierto (VAL)   93.96, 8 Epocas 
+Porcentaje de acierto (VAL)   94.04, 9 Epocas 
+Porcentaje de acierto (VAL)   93.76, 10 Epocas 
+Porcentaje de acierto (VAL)   94.13, 11 Epocas 
+Porcentaje de acierto (VAL)   94.58, 12 Epocas 
+Porcentaje de acierto (VAL)   94.19, 13 Epocas 
+Porcentaje de acierto (VAL)   94.58, 14 Epocas 
+Porcentaje de acierto (VAL)   94.10, 15 Epocas 
+Porcentaje de acierto (VAL)   94.21, 16 Epocas 
+Porcentaje de acierto (VAL)   94.72, 17 Epocas 
+Porcentaje de acierto (VAL)   94.64, 18 Epocas 
+Porcentaje de acierto (VAL)   94.86, 19 Epocas 
+Porcentaje de acierto (VAL)   94.21, 20 Epocas 
+[6|10]. Porcentaje de acierto (TRAIN) 97.95 
+[6|10]. Porcentaje de acierto (TEST)  95.51 
+Porcentaje de acierto (VAL)   88.86, 1 Epocas 
+Porcentaje de acierto (VAL)   90.62, 2 Epocas 
+Porcentaje de acierto (VAL)   91.15, 3 Epocas 
+Porcentaje de acierto (VAL)   92.41, 4 Epocas 
+Porcentaje de acierto (VAL)   92.94, 5 Epocas 
+Porcentaje de acierto (VAL)   93.51, 6 Epocas 
+Porcentaje de acierto (VAL)   93.48, 7 Epocas 
+Porcentaje de acierto (VAL)   93.76, 8 Epocas 
+Porcentaje de acierto (VAL)   93.98, 9 Epocas 
+Porcentaje de acierto (VAL)   93.57, 10 Epocas 
+Porcentaje de acierto (VAL)   93.51, 11 Epocas 
+Porcentaje de acierto (VAL)   93.29, 12 Epocas 
+Porcentaje de acierto (VAL)   94.23, 13 Epocas 
+Porcentaje de acierto (VAL)   94.04, 14 Epocas 
+Porcentaje de acierto (VAL)   93.88, 15 Epocas 
+Porcentaje de acierto (VAL)   94.35, 16 Epocas 
+Porcentaje de acierto (VAL)   93.44, 17 Epocas 
+Porcentaje de acierto (VAL)   94.07, 18 Epocas 
+Porcentaje de acierto (VAL)   94.13, 19 Epocas 
+Porcentaje de acierto (VAL)   93.60, 20 Epocas 
+[7|10]. Porcentaje de acierto (TRAIN) 97.73 
+[7|10]. Porcentaje de acierto (TEST)  95.21 
+Porcentaje de acierto (VAL)   89.65, 1 Epocas 
+Porcentaje de acierto (VAL)   91.43, 2 Epocas 
+Porcentaje de acierto (VAL)   92.51, 3 Epocas 
+Porcentaje de acierto (VAL)   93.52, 4 Epocas 
+Porcentaje de acierto (VAL)   93.94, 5 Epocas 
+Porcentaje de acierto (VAL)   94.00, 6 Epocas 
+Porcentaje de acierto (VAL)   94.81, 7 Epocas 
+Porcentaje de acierto (VAL)   94.56, 8 Epocas 
+Porcentaje de acierto (VAL)   93.94, 9 Epocas 
+Porcentaje de acierto (VAL)   94.74, 10 Epocas 
+Porcentaje de acierto (VAL)   95.09, 11 Epocas 
+Porcentaje de acierto (VAL)   94.42, 12 Epocas 
+Porcentaje de acierto (VAL)   94.77, 13 Epocas 
+Porcentaje de acierto (VAL)   94.88, 14 Epocas 
+Porcentaje de acierto (VAL)   94.67, 15 Epocas 
+Porcentaje de acierto (VAL)   95.19, 16 Epocas 
+Porcentaje de acierto (VAL)   95.16, 17 Epocas 
+Porcentaje de acierto (VAL)   94.84, 18 Epocas 
+Porcentaje de acierto (VAL)   94.91, 19 Epocas 
+Porcentaje de acierto (VAL)   94.56, 20 Epocas 
+[8|10]. Porcentaje de acierto (TRAIN) 97.81 
+[8|10]. Porcentaje de acierto (TEST)  95.13 
+Porcentaje de acierto (VAL)   90.94, 1 Epocas 
+Porcentaje de acierto (VAL)   93.11, 2 Epocas 
+Porcentaje de acierto (VAL)   94.62, 3 Epocas 
+Porcentaje de acierto (VAL)   94.19, 4 Epocas 
+Porcentaje de acierto (VAL)   93.92, 5 Epocas 
+Porcentaje de acierto (VAL)   95.39, 6 Epocas 
+Porcentaje de acierto (VAL)   94.89, 7 Epocas 
+Porcentaje de acierto (VAL)   94.77, 8 Epocas 
+Porcentaje de acierto (VAL)   95.08, 9 Epocas 
+Porcentaje de acierto (VAL)   95.32, 10 Epocas 
+Porcentaje de acierto (VAL)   95.20, 11 Epocas 
+Porcentaje de acierto (VAL)   95.74, 12 Epocas 
+Porcentaje de acierto (VAL)   95.39, 13 Epocas 
+Porcentaje de acierto (VAL)   95.78, 14 Epocas 
+Porcentaje de acierto (VAL)   95.51, 15 Epocas 
+Porcentaje de acierto (VAL)   95.70, 16 Epocas 
+Porcentaje de acierto (VAL)   95.59, 17 Epocas 
+Porcentaje de acierto (VAL)   95.82, 18 Epocas 
+Porcentaje de acierto (VAL)   96.05, 19 Epocas 
+Porcentaje de acierto (VAL)   95.90, 20 Epocas 
+[9|10]. Porcentaje de acierto (TRAIN) 98.47 
+[9|10]. Porcentaje de acierto (TEST)  95.39 
+Porcentaje de acierto (VAL)   94.49, 1 Epocas 
+Porcentaje de acierto (VAL)   94.88, 2 Epocas 
+Porcentaje de acierto (VAL)   95.57, 3 Epocas 
+Porcentaje de acierto (VAL)   96.17, 4 Epocas 
+Porcentaje de acierto (VAL)   95.87, 5 Epocas 
+Porcentaje de acierto (VAL)   95.83, 6 Epocas 
+Porcentaje de acierto (VAL)   95.96, 7 Epocas 
+Porcentaje de acierto (VAL)   96.69, 8 Epocas 
+Porcentaje de acierto (VAL)   96.47, 9 Epocas 
+Porcentaje de acierto (VAL)   96.86, 10 Epocas 
+Porcentaje de acierto (VAL)   96.26, 11 Epocas 
+Porcentaje de acierto (VAL)   96.39, 12 Epocas 
+Porcentaje de acierto (VAL)   96.39, 13 Epocas 
+Porcentaje de acierto (VAL)   96.47, 14 Epocas 
+Porcentaje de acierto (VAL)   96.64, 15 Epocas 
+Porcentaje de acierto (VAL)   95.87, 16 Epocas 
+Porcentaje de acierto (VAL)   96.56, 17 Epocas 
+Porcentaje de acierto (VAL)   96.51, 18 Epocas 
+Porcentaje de acierto (VAL)   96.51, 19 Epocas 
+Porcentaje de acierto (VAL)   96.94, 20 Epocas 
+[10|10]. Porcentaje de acierto (TRAIN) 98.28 
+[10|10]. Porcentaje de acierto (TEST)  94.94 
+Fin del entrenamiento... 3626.88 seg
+-------------------------------------------------------
+Fin:                2015-11-17 18:54:37
+Tiempo total: 3626.88 seg (60.45 min - 1.01 hr)
+Entrenamiento: 20 Epocas
+Mejor arquitectura: [ 40 100 10 ]
+Datos de Ent. / Val. / Prueba (10 conjuntos): 54000 / 6000 / 10000
+Promedios:
+ENTRENAMIENTO: 97.88 % (stdev 0.32)
+PRUEBA: 95.59 % (stdev 0.45)

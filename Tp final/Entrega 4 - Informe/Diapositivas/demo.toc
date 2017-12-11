@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Introducci\IeC {\'o}n}{3}{0}{1}
+\beamer@sectionintoc {2}{M\IeC {\'e}todos de inicializaci\IeC {\'o}n de k-means}{5}{0}{2}
+\beamer@sectionintoc {3}{Medidas e \IeC {\'I}ndices de evaluaci\IeC {\'o}n de Clusters}{9}{0}{3}
+\beamer@sectionintoc {4}{Bases de Datos}{13}{0}{4}
+\beamer@sectionintoc {5}{Resultados}{16}{0}{5}

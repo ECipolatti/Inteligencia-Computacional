@@ -1,0 +1,63 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{#1}
+\def\UrlFont{\rmfamily}
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{MilliganCooper}
+G.~Milligan y C.~Cooper, ``An examination of procedures for determining the
+  number of clusters in a data set,'' \emph{Psychometrika}, vol.~50, pp.
+  159--179, 1985.
+
+\bibitem{MeilaHeckerman}
+M.~Meila y D.~Heckerman, ``An experimental comparison of several clustering and
+  initialization methods,'' \emph{Proc. 14th Conf. Uncertainty in Artificial
+  Intelligence}, pp. 386--395, 1998.
+
+\bibitem{Fraley}
+C.~Fraley y A.~Raftery, ``How many clusters? which clustering method? answers
+  via model-based cluster analysis,'' \emph{The Computer J.}, vol.~41, pp.
+  578--588, 1998.
+
+\bibitem{Hall}
+L.~Hall, I.~Ozyurt, y J.~C. Bezdek, ``Clustering with a genetically optimized
+  approach,'' \emph{IEEE Trans. Evolutionary Computation}, vol.~3, pp.
+  103--112, 1999.
+
+\bibitem{DB}
+D.~Davies y D.~Bouldin, ``A cluster separation measure,'' \emph{IEEE Trans.
+  Pattern Analysis and Machine Intelligence}, vol.~1, pp. 224--227, 1979.
+
+\bibitem{Dunn}
+J.~Dunn, ``A fuzzy relative of the isodata process and its use in detecting
+  compact well-separated clusters,'' \emph{J. Cybernetics}, vol.~3, pp. 32--57,
+  1973.
+
+\bibitem{original}
+\emph{Metodos no Jerarquicos de Analisis de Cluster}.\hskip 1em plus 0.5em
+  minus 0.4em\relax Universidad de Granada, 2014, capítulo 4.
+
+\bibitem{k-means++}
+S.~Vassilvitski, \emph{k-means++: The Advantages of Careful Seeding}.\hskip 1em
+  plus 0.5em minus 0.4em\relax Standar Theory Groups, 2007.
+
+\bibitem{Forgy-kmeans}
+P.~L. anda I.~Inza y A.~Moujahid, \emph{Tema 14. Clustering}.\hskip 1em plus
+  0.5em minus 0.4em\relax Departamento de Ciencias de la Computacion e
+  Inteligencia Artificial - Universidad del País Vasco, 2014.
+
+\end{thebibliography}

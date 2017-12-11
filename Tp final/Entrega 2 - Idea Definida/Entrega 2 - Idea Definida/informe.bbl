@@ -1,0 +1,57 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{#1}
+\def\UrlFont{\rmfamily}
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{original}
+``Métodos no jerárquicos de ana?lisis cluster.'' 2014, capítulo 4.
+
+\bibitem{k-means++}
+D.~Arthur y S.~Vassilvitskii, \emph{k-means++: The Advantages of Careful
+  Seeding}.\hskip 1em plus 0.5em minus 0.4em\relax Stanford Theory Groups,
+  2007.
+
+\bibitem{Forgy-kmeans}
+P.~Larrañaga, I.~Inza, y A.~Moujahid, \emph{Tema 14. Clustering}.\hskip 1em
+  plus 0.5em minus 0.4em\relax Departamento de Ciencias de la Computación e
+  Inteligencia Artificial - Universidad del País Vasco, 2014.
+
+\bibitem{Andrea-Guillermo}
+A.~Villagra, A.~Guzmán, D.~Pandolfi, y G.~Leguizamo?n, \emph{Ana?lisis de
+  medidas no-supervisadas de calidad en clusters obtenidos por K-means}.\hskip
+  1em plus 0.5em minus 0.4em\relax Universidad Nacional de la Patagonia Austral
+  and Universidad Nacional de San Luis, 2012.
+
+\bibitem{6740074}
+Y.~Xu, W.~Qu, Z.~Li, G.~Min, K.~Li, y Z.~Liu, ``Efficient k -means++
+  approximation with mapreduce,'' \emph{IEEE Transactions on Parallel and
+  Distributed Systems}, vol.~25, no.~12, pp. 3135--3144, Dec 2014.
+
+\bibitem{1114856}
+U.~Maulik y S.~Bandyopadhyay, ``Performance evaluation of some clustering
+  algorithms and validity indices,'' \emph{IEEE Transactions on Pattern
+  Analysis and Machine Intelligence}, vol.~24, no.~12, pp. 1650--1654, Dec
+  2002.
+
+\bibitem{SchulteImWalde:03}
+S.~{Schulte im Walde}, ``Experiments on the {A}utomatic {I}nduction of {G}erman
+  {S}emantic {V}erb {C}lasses,'' Disertación doctoral, Institut for Maschinelle
+  Sprachverarbeitung, University Stuttgart, 2003, published as AIMS Report
+  9(2).
+
+\end{thebibliography}

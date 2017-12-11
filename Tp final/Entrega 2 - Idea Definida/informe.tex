@@ -1,0 +1,144 @@
+\documentclass[conference,a4paper,10pt,oneside,final]{informe}
+\usepackage[latin1]{inputenc}   			% caracteres especiales (acentos, eñes)
+\usepackage[spanish]{babel}     			% varias definiciones para el español
+\usepackage{graphicx}           			% inserción de graficos
+\usepackage{mathtools}          			% fórmulas matemáticas
+\usepackage{hyperref}						% hipervínculos
+\usepackage{listings}						% para formatear el código fuente
+\usepackage[usenames,dvipsnames]{color}	% color
+\usepackage[table]{xcolor}					% color en tablas
+\usepackage{color}
+\usepackage{setspace}
+\usepackage[spanish]{algorithm2e}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage{parskip}
+\usepackage{siunitx}
+\usepackage{amssymb}
+\usepackage{cite}
+
+\renewcommand{\thetable}{\arabic{table}}
+\definecolor{light-gray}{gray}{0.75}
+
+\begin{document}
+\onecolumn
+\title{Trabajo Final - Informe II:\\
+       Propuesta de Trabajo}
+
+\author{Cipolatti Edgardo, Rosales Mario y Santellán Franco \\
+\textit{edgardocipolatti@hotmail.com - mariorosales941@gmail.com - fransantellan@gmail.com}}
+
+\markboth{Inteligencia Computacional - AÑO 2016}{}
+
+\maketitle
+
+
+\section{Introducción}
+A lo largo del curso se han desarrollado algoritmos para la implementación de diferentes redes neuronales, siempre siguiendo como objetivo común la resolución de problemas. A la hora de clasificar se implementó, entre otras, una red neuronal con funciones de base radial que nos permitió identificar patrones entre varias clases. Dicha red se basa en funciones \textit{gaussianas} creadas a partir de dos parámetros, la \textit{media} $\mu$ y la \textit{varianza} $\sigma$. Para hallar $\mu$, se implementó el algoritmo \textit{k-means clustering standard}, que encuentra $k$ centroides según la dispersión y agrupamiento de los patrones, para luego ser usados como parámetro $\mu$.
+
+Al implementar \textit{k-means clustering standard}, nos encontramos con el problema de que la convergencia de dicho algoritmo dependía totalmente de la inicialización de los primeros centroides, denominados \textit{semillas}. Donde, ante una mala inicialización, se encontraban centroides no convenientes que comprometían el desempeño de la red y, posteriormente, la clasificación.
+
+Por lo dicho anteriormente, nos vimos intrigados en la búsqueda de otros métodos de inicialización de semillas que no sea una simple inicialización al azar.
+
+\section{Métodos de Inicialización a Analizar}
+En la búsqueda para dar con un conjunto de \textit{semillas} que sea una buena aproximación a centroides, proponemos analizar los siguientes métodos (ver \cite{Forgy-kmeans, original, k-means++}):
+\begin{itemize}
+\item McQueen (1967) 
+\item Etiquetado 
+\item McRae (1971) 
+\item Forgy (1965) 
+\item Astrahan (1970) 
+\item k-means++ (2007) 
+\end{itemize}
+
+Suponiendo que el número de clusters a formar es $k$, entonces:
+
+\subsection{McQueen (1967)}
+El método de McQueen se basa en elegir como semillas a los $k$ primeros patrones del conjunto de datos. En este caso se debe tener en cuenta que es necesario mezclar los datos para eliminar la dependencia que puedan llegar a tener entre ellos.
+
+\subsection{Etiquetado}
+Se etiquetan los patrones de $1$ a $m$ y se eligen como semillas aquellos patrones cuya etiqueta se obtiene de la siguiente manera:
+\begin{align*}
+\left[ \dfrac{\alpha \cdot m}{k} \right] 
+\end{align*}
+donde $\alpha = 1, 2, \dots, (k-1), k$, y donde $\left[ x \right]$ representa la parte entera de $x$.
+
+Con este sistema se pretende compensar la tendencia natural de ordenar los casos en el orden de introducción o alguna otra secuencia no aleatoria.
+
+\subsection{McRae (1971)}
+Se etiquetan los patrones de $1$ a $m$. Para obtener la primer semilla, se genera un número al azar entre $1$ y $m$, dicho número indica el patrón seleccionado. Para la siguiente semilla, se repite el mismo procedimiento pero esta vez, generando un valor al azar entre $1$ y $(m-1)$, debido a que ya se ha obtenido una semilla y la cantidad de patrones disminuye una unidad. 
+
+\subsection{Forgy (1965)}
+Para éste método lo que se hace es formar $k$ grupos de patrones mutuamente excluyentes y usar sus centroides como semillas.
+ 
+\subsection{Astrahan (1970)}
+El algoritmo de Astrahan, el cual nos permite elegir las semillas de tal forma que abarquen todo el conjunto de datos, es decir, los datos estarán relativamente próximos a un punto semilla, pero las semillas estarán dispersas unas de otras. Astrahan propuso el siguiente algoritmo para ello:
+
+\begin{itemize}
+\item Para cada individuo se calcula la densidad, entendiendo por tal el número de casos que distan de él una cierta distancia, digamos $d_1$.
+\item Ordenar los casos por densidades y elegir aquel que tenga la mayor densidad como primer punto semilla.
+\item Elegir de forma sucesiva los puntos semilla en orden de densidad decreciente sujeto a que cada nueva semilla tenga al menos una distancia mínima, $d_2$, con los otros puntos elegidos anteriormente. Continuar eligiendo semillas hasta que todos los casos que faltan tengan densidad cero, o sea, hay al menos una distancia $d_1$ de cada punto a otro.
+\end{itemize}
+
+\subsection{k-means++}
+Este algoritmo es propuesto por David Arturo y Sergei Vassilvitskii en 2007. \textit{k-means++} consiste en encontrar semillas tal que se minimice la varianza entre grupos, es decir, minimizar la suma de las distancias al cuadrado de cada punto al centro mas cercano a él.
+
+Sean $X$ el conjunto de patrones y $D(x)$ la distancia mínima desde un patrón $x$ al centro mas cercano. Entonces, el algoritmo \textit{k-means++} se define como:
+\begin{itemize}
+\item Se toma un centro $c_1$, elegido uniformemente al azar de $X$.
+\item Tomo un nuevo centro $c_i$, eligiendo $x \in X$ con probabilidad:
+\begin{align*}
+P = \frac{D(x)^2}{\sum_{x\in X} D(x)^2}
+\end{align*}
+\item Repetir el paso anterior hasta que hallamos tomado $k$ centros.
+\item Se procede al algoritmo \textit{k-means clustering standard} con las $k$ semillas encontradas.
+\end{itemize}
+
+\section{Aplicación y Evaluación de los Métodos}
+A los efectos de establecer la calidad de los clusters encontrados por el algoritmo \textit{k-means clustering standard}, usando la inicialización de los distintos algoritmos propuestos, proponemos 4 medidas posibles (ver \cite{Andrea-Guillermo, SchulteImWalde:03}): 
+
+\begin{itemize}
+\item \textbf{Distancia Intra-Cluster} (cohesión). Distancia entre todos los elementos de un cluster, el objetivo es minimizar esta distancia:
+\begin{align*}
+\frac{\sum_{i=1}^{K} (\sum_{z,t \in C_i} d(z, t) / \left | C_i \right |)}{K}
+\end{align*}
+
+\item \textbf{Distancia Inter-Cluster} (separación). Distancia entre los centroides de los clusters, donde el objetivo es maximizar la distancia entre ellos:
+
+\begin{align*}
+\frac{ \sum_{i=1}^{K-1} \sum_{j=i+1}^{K} d(c_i, c_j) } {\sum_{i=1}^{K-1} i}
+\end{align*}
+
+
+\item \textbf{Pureza}. A cada cluster se le asigna una clase, la cual es la más frecuente en el cluster, y la medida se realiza contando la cantidad de elementos que pertenecen a esa clase dentro del cluster dividido la totalidad de elementos en el cluster. Formalmente:
+
+\begin{align*}
+\mbox{purity}( \Omega,\mathbb{C} ) = \frac{1}{N} \sum_k \max_j \vert\omega_k \cap c_j\vert.
+\end{align*}
+
+\item \textbf{Matriz de confusión o tabla de contingencia}. A partir de la información brindada por la misma podemos extraer indices como el RI (Rand index), F score entre otras.
+
+\end{itemize}
+\newpage
+
+Por otro lado, para tener otras medidas de cuan buenos son los algoritmos utilizados, se propone analizar el rendimiento del algoritmo \textit{k-means clustering standard}. Utilizando cada una de las inicializaciones proporcionadas por los algoritmos propuestos, se consideran los siguientes aspectos:
+\begin{itemize}
+\item Tiempo de ejecución
+\item Cantidad de Iteraciones
+\end{itemize}
+
+Todos estos métodos serán evaluados utilizando las siguientes bases de datos:
+\begin{itemize}
+\item \textit{Iris Plants}: es una base de datos con $4$ atributos numéricos, $3$ clases y $150$ elementos. La misma fue proporcionada por la cátedra.
+\item \textit{Wine Quality}: una base de datos para clasificar vinos según su calidad, obtenida de \textit{UCI Machine Learning Repository}. La misma se divide en casos casos para \textit{Vino Blanco} y \textit{Vino Tinto}, con $4899$ y $1600$ casos respectivamente. Estas casos contienen $12$ atributos de los cuales los primeros $11$ son características fisico-químicas, mientras que el último atributo representa la calidad exacta del vino.
+\item \textit{Glass Identification}: también obtenida de \textit{UCI Machine Learning Repository} y contiene $214$ casos con $10$ atributos cada uno. Ésta base de datos contiene 6 tipos de vidrio definidos en términos de su contenido de óxido (es decir $Na$, $Fe$, $K$, etc).
+\end{itemize}
+
+
+%\footnote{Real-time musical analysis of polyphonic guitar audio - 2012 - John Hartquist}
+
+\nocite{*}
+\bibliographystyle{informe}
+\bibliography{informe}
+
+\end{document}

@@ -1,0 +1,17 @@
+Inicio:             2015-11-17 22:55:53
+Reading MNIST Dataset ...
+Class		 0	 1	 2	 3	 4	 5	 6	 7	 8	 9	 Total
+Training:	 592	 671	 581	 608	 623	 514	 608	 651	 551	 601	 6000
+Testing:	 85	 126	 116	 107	 110	 87	 87	 99	 89	 94	 1000
+RN = [ 10 10 10 ]
+Comienzo del entrenamiento...
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('mlp_train', '/media/STUFF/Dropbox/ic/carlos/MLP/mlp_train.m', 38)" style="font-weight:bold">mlp_train</a> (<a href="matlab: opentoline('/media/STUFF/Dropbox/ic/carlos/MLP/mlp_train.m',38,0)">line 38</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('mlp_ocr', '/media/STUFF/Dropbox/ic/carlos/MLP/mlp_ocr.m', 56)" style="font-weight:bold">mlp_ocr</a> (<a href="matlab: opentoline('/media/STUFF/Dropbox/ic/carlos/MLP/mlp_ocr.m',56,0)">line 56</a>)
+            [w,w0] = mlp_train(train_data,RN,w,w0,n_in,gamma,eta,phi,c);
+
+In <a href="matlab:helpUtils.errorDocCallback('test_ocr_arch', '/media/STUFF/Dropbox/ic/carlos/MLP/test_ocr_arch.m', 45)" style="font-weight:bold">test_ocr_arch</a> (<a href="matlab: opentoline('/media/STUFF/Dropbox/ic/carlos/MLP/test_ocr_arch.m',45,0)">line 45</a>)
+       [Tst,Trn,Val,time] = mlp_ocr(train_data,test_data,RN,n_in,n_out,tol,maxep,vrate,c,k);
+} 
+test_ocr_arch

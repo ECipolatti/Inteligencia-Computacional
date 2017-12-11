@@ -1,0 +1,270 @@
+Inicio:             2015-11-18 15:26:40
+RN = [ 3 3 1 ]
+Comienzo del entrenamiento...
+[3/3]. Porcentaje de acierto (TRAIN) 85.94 
+[3/3]. Porcentaje de acierto (TEST)  82.05 
+[1/3]. Porcentaje de acierto (TRAIN) 82.45 
+[1/3]. Porcentaje de acierto (TEST)  84.03 
+[2/3]. Porcentaje de acierto (TRAIN) 81.55 
+[2/3]. Porcentaje de acierto (TEST)  81.33 
+Fin del entrenamiento... 353.75 seg
+-------------------------------------------------------
+RN = [ 3 6 1 ]
+Comienzo del entrenamiento...
+[3/3]. Porcentaje de acierto (TRAIN) 86.24 
+[3/3]. Porcentaje de acierto (TEST)  83.37 
+[1/3]. Porcentaje de acierto (TRAIN) 87.10 
+[1/3]. Porcentaje de acierto (TEST)  87.39 
+[2/3]. Porcentaje de acierto (TRAIN) 82.98 
+[2/3]. Porcentaje de acierto (TEST)  86.19 
+Fin del entrenamiento... 359.97 seg
+-------------------------------------------------------
+RN = [ 3 9 1 ]
+Comienzo del entrenamiento...
+[3/3]. Porcentaje de acierto (TRAIN) 83.61 
+[3/3]. Porcentaje de acierto (TEST)  82.17 
+[2/3]. Porcentaje de acierto (TRAIN) 84.29 
+[2/3]. Porcentaje de acierto (TEST)  86.79 
+[1/3]. Porcentaje de acierto (TRAIN) 78.10 
+[1/3]. Porcentaje de acierto (TEST)  78.75 
+Fin del entrenamiento... 356.53 seg
+-------------------------------------------------------
+RN = [ 3 12 1 ]
+Comienzo del entrenamiento...
+[2/3]. Porcentaje de acierto (TRAIN) 80.05 
+[2/3]. Porcentaje de acierto (TEST)  80.25 
+[1/3]. Porcentaje de acierto (TRAIN) 86.69 
+[1/3]. Porcentaje de acierto (TEST)  86.79 
+[3/3]. Porcentaje de acierto (TRAIN) 82.19 
+[3/3]. Porcentaje de acierto (TEST)  80.73 
+Fin del entrenamiento... 363.39 seg
+-------------------------------------------------------
+RN = [ 3 15 1 ]
+Comienzo del entrenamiento...
+[3/3]. Porcentaje de acierto (TRAIN) 84.40 
+[3/3]. Porcentaje de acierto (TEST)  80.97 
+[2/3]. Porcentaje de acierto (TRAIN) 80.16 
+[2/3]. Porcentaje de acierto (TEST)  81.21 
+[1/3]. Porcentaje de acierto (TRAIN) 82.71 
+[1/3]. Porcentaje de acierto (TEST)  82.59 
+Fin del entrenamiento... 360.46 seg
+-------------------------------------------------------
+RN = [ 3 18 1 ]
+Comienzo del entrenamiento...
+[2/3]. Porcentaje de acierto (TRAIN) 81.66 
+[3/3]. Porcentaje de acierto (TRAIN) 83.84 
+[2/3]. Porcentaje de acierto (TEST)  82.05 
+[3/3]. Porcentaje de acierto (TEST)  81.33 
+[1/3]. Porcentaje de acierto (TRAIN) 81.14 
+[1/3]. Porcentaje de acierto (TEST)  80.49 
+Fin del entrenamiento... 364.24 seg
+-------------------------------------------------------
+RN = [ 3 21 1 ]
+Comienzo del entrenamiento...
+[1/3]. Porcentaje de acierto (TRAIN) 82.71 
+[1/3]. Porcentaje de acierto (TEST)  83.85 
+[3/3]. Porcentaje de acierto (TRAIN) 82.08 
+[3/3]. Porcentaje de acierto (TEST)  80.01 
+[2/3]. Porcentaje de acierto (TRAIN) 81.36 
+[2/3]. Porcentaje de acierto (TEST)  81.03 
+Fin del entrenamiento... 373.63 seg
+-------------------------------------------------------
+RN = [ 3 24 1 ]
+Comienzo del entrenamiento...
+[3/3]. Porcentaje de acierto (TRAIN) 81.36 
+[3/3]. Porcentaje de acierto (TEST)  79.77 
+[1/3]. Porcentaje de acierto (TRAIN) 81.70 
+[1/3]. Porcentaje de acierto (TEST)  82.17 
+[2/3]. Porcentaje de acierto (TRAIN) 82.00 
+[2/3]. Porcentaje de acierto (TEST)  81.51 
+Fin del entrenamiento... 366.21 seg
+-------------------------------------------------------
+RN = [ 3 27 1 ]
+Comienzo del entrenamiento...
+[3/3]. Porcentaje de acierto (TRAIN) 82.41 
+[3/3]. Porcentaje de acierto (TEST)  79.77 
+[1/3]. Porcentaje de acierto (TRAIN) 79.12 
+[1/3]. Porcentaje de acierto (TEST)  80.01 
+[2/3]. Porcentaje de acierto (TRAIN) 80.01 
+[2/3]. Porcentaje de acierto (TEST)  80.43 
+Fin del entrenamiento... 364.45 seg
+-------------------------------------------------------
+RN = [ 3 30 1 ]
+Comienzo del entrenamiento...
+[2/3]. Porcentaje de acierto (TRAIN) 82.08 
+[2/3]. Porcentaje de acierto (TEST)  81.27 
+[1/3]. Porcentaje de acierto (TRAIN) 80.58 
+[1/3]. Porcentaje de acierto (TEST)  82.05 
+[3/3]. Porcentaje de acierto (TRAIN) 82.34 
+[3/3]. Porcentaje de acierto (TEST)  81.21 
+Fin del entrenamiento... 364.90 seg
+-------------------------------------------------------
+RN = [ 6 3 1 ]
+Comienzo del entrenamiento...
+[3/3]. Porcentaje de acierto (TRAIN) 89.16 
+[3/3]. Porcentaje de acierto (TEST)  87.09 
+[2/3]. Porcentaje de acierto (TRAIN) 88.41 
+[2/3]. Porcentaje de acierto (TEST)  89.14 
+[1/3]. Porcentaje de acierto (TRAIN) 88.68 
+[1/3]. Porcentaje de acierto (TEST)  88.54 
+Fin del entrenamiento... 358.96 seg
+-------------------------------------------------------
+RN = [ 6 6 1 ]
+Comienzo del entrenamiento...
+[1/3]. Porcentaje de acierto (TRAIN) 86.73 
+[1/3]. Porcentaje de acierto (TEST)  87.82 
+[3/3]. Porcentaje de acierto (TRAIN) 89.46 
+[3/3]. Porcentaje de acierto (TEST)  87.27 
+[2/3]. Porcentaje de acierto (TRAIN) 87.59 
+[2/3]. Porcentaje de acierto (TEST)  88.36 
+Fin del entrenamiento... 358.63 seg
+-------------------------------------------------------
+RN = [ 6 9 1 ]
+Comienzo del entrenamiento...
+[3/3]. Porcentaje de acierto (TRAIN) 87.25 
+[3/3]. Porcentaje de acierto (TEST)  85.47 
+[2/3]. Porcentaje de acierto (TRAIN) 87.55 
+[2/3]. Porcentaje de acierto (TEST)  89.20 
+[1/3]. Porcentaje de acierto (TRAIN) 88.38 
+[1/3]. Porcentaje de acierto (TEST)  88.42 
+Fin del entrenamiento... 366.88 seg
+-------------------------------------------------------
+RN = [ 6 12 1 ]
+Comienzo del entrenamiento...
+[3/3]. Porcentaje de acierto (TRAIN) 89.84 
+[3/3]. Porcentaje de acierto (TEST)  87.39 
+[2/3]. Porcentaje de acierto (TRAIN) 87.40 
+[2/3]. Porcentaje de acierto (TEST)  89.20 
+[1/3]. Porcentaje de acierto (TRAIN) 89.16 
+[1/3]. Porcentaje de acierto (TEST)  89.20 
+Fin del entrenamiento... 362.18 seg
+-------------------------------------------------------
+RN = [ 6 15 1 ]
+Comienzo del entrenamiento...
+[2/3]. Porcentaje de acierto (TRAIN) 88.90 
+[2/3]. Porcentaje de acierto (TEST)  89.20 
+[1/3]. Porcentaje de acierto (TRAIN) 88.79 
+[1/3]. Porcentaje de acierto (TEST)  88.72 
+[3/3]. Porcentaje de acierto (TRAIN) 89.20 
+[3/3]. Porcentaje de acierto (TEST)  86.31 
+Fin del entrenamiento... 370.90 seg
+-------------------------------------------------------
+RN = [ 6 18 1 ]
+Comienzo del entrenamiento...
+[1/3]. Porcentaje de acierto (TRAIN) 88.38 
+[3/3]. Porcentaje de acierto (TRAIN) 89.13 
+[1/3]. Porcentaje de acierto (TEST)  89.50 
+[3/3]. Porcentaje de acierto (TEST)  86.73 
+[2/3]. Porcentaje de acierto (TRAIN) 87.40 
+[2/3]. Porcentaje de acierto (TEST)  88.54 
+Fin del entrenamiento... 372.84 seg
+-------------------------------------------------------
+RN = [ 6 21 1 ]
+Comienzo del entrenamiento...
+[3/3]. Porcentaje de acierto (TRAIN) 89.13 
+[3/3]. Porcentaje de acierto (TEST)  86.91 
+[1/3]. Porcentaje de acierto (TRAIN) 88.64 
+[1/3]. Porcentaje de acierto (TEST)  88.96 
+[2/3]. Porcentaje de acierto (TRAIN) 87.63 
+[2/3]. Porcentaje de acierto (TEST)  88.90 
+Fin del entrenamiento... 373.01 seg
+-------------------------------------------------------
+RN = [ 6 24 1 ]
+Comienzo del entrenamiento...
+[1/3]. Porcentaje de acierto (TRAIN) 88.15 
+[1/3]. Porcentaje de acierto (TEST)  88.90 
+[3/3]. Porcentaje de acierto (TRAIN) 88.68 
+[3/3]. Porcentaje de acierto (TEST)  87.15 
+[2/3]. Porcentaje de acierto (TRAIN) 88.11 
+[2/3]. Porcentaje de acierto (TEST)  88.48 
+Fin del entrenamiento... 378.18 seg
+-------------------------------------------------------
+RN = [ 6 27 1 ]
+Comienzo del entrenamiento...
+[3/3]. Porcentaje de acierto (TRAIN) 89.54 
+[3/3]. Porcentaje de acierto (TEST)  87.09 
+[2/3]. Porcentaje de acierto (TRAIN) 88.30 
+[2/3]. Porcentaje de acierto (TEST)  89.14 
+[1/3]. Porcentaje de acierto (TRAIN) 88.41 
+[1/3]. Porcentaje de acierto (TEST)  88.72 
+Fin del entrenamiento... 371.79 seg
+-------------------------------------------------------
+RN = [ 6 30 1 ]
+Comienzo del entrenamiento...
+[3/3]. Porcentaje de acierto (TRAIN) 90.40 
+[3/3]. Porcentaje de acierto (TEST)  87.21 
+[1/3]. Porcentaje de acierto (TRAIN) 87.96 
+[1/3]. Porcentaje de acierto (TEST)  88.54 
+[2/3]. Porcentaje de acierto (TRAIN) 88.79 
+[2/3]. Porcentaje de acierto (TEST)  89.62 
+Fin del entrenamiento... 372.21 seg
+-------------------------------------------------------
+RN = [ 9 3 1 ]
+Comienzo del entrenamiento...
+[2/3]. Porcentaje de acierto (TRAIN) 88.38 
+[2/3]. Porcentaje de acierto (TEST)  89.08 
+[3/3]. Porcentaje de acierto (TRAIN) 89.50 
+[3/3]. Porcentaje de acierto (TEST)  87.64 
+[1/3]. Porcentaje de acierto (TRAIN) 88.11 
+[1/3]. Porcentaje de acierto (TEST)  88.36 
+Fin del entrenamiento... 356.89 seg
+-------------------------------------------------------
+RN = [ 9 6 1 ]
+Comienzo del entrenamiento...
+Operation terminated by user during mlp_train (line 32)
+
+
+In mlp_kfold>(parfor body) (line 54)
+            [w,w0] = mlp_train(train_data,RN,w,w0,n_in,gamma,eta,phi,c);
+
+In parallel_function>make_general_channel/channel_general (line 914)
+                    O = F(C{:});
+
+In remoteParallelFunction (line 38)
+        out = parallel.internal.pool.serialize(feval(channel, channelArgs{:}));
+
+Operation terminated by user during mlp_train (line 15)
+
+
+In mlp_kfold>(parfor body) (line 54)
+            [w,w0] = mlp_train(train_data,RN,w,w0,n_in,gamma,eta,phi,c);
+
+In parallel_function>make_general_channel/channel_general (line 914)
+                    O = F(C{:});
+
+In remoteParallelFunction (line 38)
+        out = parallel.internal.pool.serialize(feval(channel, channelArgs{:}));
+
+Operation terminated by user during mlp_train (line 38)
+
+
+In mlp_kfold>(parfor body) (line 54)
+            [w,w0] = mlp_train(train_data,RN,w,w0,n_in,gamma,eta,phi,c);
+
+In parallel_function>make_general_channel/channel_general (line 914)
+                    O = F(C{:});
+
+In remoteParallelFunction (line 38)
+        out = parallel.internal.pool.serialize(feval(channel, channelArgs{:}));
+
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('distcomp.remoteparfor/getCompleteIntervals', '/usr/local/MATLAB/R2014a/toolbox/distcomp/distcomp/+distcomp/remoteparfor.m', 119)" style="font-weight:bold">distcomp.remoteparfor/getCompleteIntervals</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2014a/toolbox/distcomp/distcomp/+distcomp/remoteparfor.m',119,0)">line 119</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('parallel_function>distributed_execution', '/usr/local/MATLAB/R2014a/toolbox/matlab/lang/parallel_function.m', 820)" style="font-weight:bold">parallel_function>distributed_execution</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2014a/toolbox/matlab/lang/parallel_function.m',820,0)">line 820</a>)
+        [tags, out] = P.getCompleteIntervals(chunkSize);
+
+In <a href="matlab:helpUtils.errorDocCallback('parallel_function', '/usr/local/MATLAB/R2014a/toolbox/matlab/lang/parallel_function.m', 587)" style="font-weight:bold">parallel_function</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2014a/toolbox/matlab/lang/parallel_function.m',587,0)">line 587</a>)
+        R = distributed_execution(...
+
+In <a href="matlab:helpUtils.errorDocCallback('mlp_kfold', '/media/STUFF/Dropbox/ic/carlos/MLP/mlp_kfold.m', 29)" style="font-weight:bold">mlp_kfold</a> (<a href="matlab: opentoline('/media/STUFF/Dropbox/ic/carlos/MLP/mlp_kfold.m',29,0)">line 29</a>)
+    parfor i_k = 1 : k
+
+In <a href="matlab:helpUtils.errorDocCallback('test_clouds', '/media/STUFF/Dropbox/ic/carlos/MLP/test_clouds.m', 40)" style="font-weight:bold">test_clouds</a> (<a href="matlab: opentoline('/media/STUFF/Dropbox/ic/carlos/MLP/test_clouds.m',40,0)">line 40</a>)
+       [Hk,Ek,time] = mlp_kfold(fd,k,RN,n_in,n_out,tol,maxep,vrate,c);
+
+In <a href="matlab:helpUtils.errorDocCallback('test_arch', '/media/STUFF/Dropbox/ic/carlos/MLP/test_arch.m', 2)" style="font-weight:bold">test_arch</a> (<a href="matlab: opentoline('/media/STUFF/Dropbox/ic/carlos/MLP/test_arch.m',2,0)">line 2</a>)
+test_clouds
+} 
+MEvent. CASE!
+MEvent. CASE!
+test_clouds

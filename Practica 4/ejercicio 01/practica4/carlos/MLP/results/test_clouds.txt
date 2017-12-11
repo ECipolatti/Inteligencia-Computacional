@@ -1,0 +1,5 @@
+Inicio:             2015-11-17 07:37:47
+Fin:                2015-11-17 10:10:19
+Tiempo total:       9152.33 seg (152.54 min - 2.54 hr)
+Mejor arquitectura: [ 8 12 1 ]
+Promedios:          88.70 % acierto (stdev 0.66) - 250 Epocas - 364.84 seg

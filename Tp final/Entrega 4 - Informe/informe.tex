@@ -1,0 +1,397 @@
+\documentclass[conference,a4paper,10pt,oneside,final]{informe}
+\usepackage[latin1]{inputenc}   			% caracteres especiales (acentos, eñes)
+\usepackage[spanish]{babel}     			% varias definiciones para el español
+\usepackage{graphicx}           			% inserción de graficos
+\usepackage{mathtools}          			% fórmulas matemáticas
+\usepackage{hyperref}						% hipervínculos
+\usepackage{listings}						% para formatear el código fuente
+\usepackage[usenames,dvipsnames]{color}	% color
+\usepackage[table]{xcolor}					% color en tablas
+\usepackage{color}
+\usepackage{setspace}
+\usepackage[linesnumbered,spanish,vlined, ruled, boxed,commentsnumbered]{algorithm2e}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage{parskip}
+\usepackage{siunitx}
+\usepackage{multirow}
+
+
+\renewcommand{\thetable}{\arabic{table}}
+\definecolor{light-gray}{gray}{0.75}
+
+\setlength{\parindent}{0.5cm}
+
+
+\begin{document}
+\title{Métodos de Inicialización para \textit{k-means} \\
+Trabajo Final - Procesamiento }
+
+\author{Cipolatti Edgardo, Rosales Mario y Santellán Franco \\
+\textit{edgardocipolatti@hotmail.com - mariorosales941@gmail.com - fransantellan@gmail.com}}
+
+\markboth{Inteligencia Computacional - AÑO 2016}{}
+
+\maketitle
+
+\vspace{0.75cm}
+\begin{abstract}
+En el siguiente informe se comparan diferentes métodos de inicialización de centroides para el algoritmo \textit{k-means}. Los métodos propuestos para tal fin son: BallHall, Etiquetado, Forgy, k-means++, McQueen y McRae. Luego su desempeño se observará con la ayuda de las siguientes medidas e índices: Iteraciones, Tiempo, Intra e Inter cluster, Davies Bouldin y Dunn. 
+
+Se utilizarán diferentes bases de datos que varían en complejidad, según la cantidad de datos y dimensiones, como así también variando la cantidad de agrupamientos $K$ solicitados.
+
+Hacia el final de este informe se presentan gráficas que plasman los resultados. Los que fueron obtenidos realizando un número fijo de iteraciones para diferentes valores $K$ de clusters solicitados.
+\end{abstract}
+
+\begin{keywords}
+K-means, Clusters, McQueen, Etiquetado, McRae, Forgy, k-means++, Dunn, Davies-Bouldin, 
+\end{keywords}
+
+\section{Introducción}
+\PARstart{E}l propósito de cualquier técnica de agrupamiento (\textit{clustering}) es encontrar una matriz de partición $U(X)$ de $K$x$n$ de un conjunto de datos $X = \lbrace x_1, x_2, \cdots , x_n \rbrace$ en $R^n$, representando su partición en un número, digamos $K$, de racimos (\textit{clusters}) $(C_1, C_2, \cdots , C_K)$. La matriz de partición $U(X)$ puede representarse como $U = \left[ u_{kj} \right] , k = 1, 2, \cdots , K, \text{y } j = 1, 2, \cdots n$, donde $u_{kj}$ es la pertenencia del patrón $x_j$ al cluster $C_K$. En la división de los datos, se cumple que: $u_{kj} = 1$ si $x_j \in C_K$; en otro caso, $u_{kj} = 0$. Las técnicas de clustering se dividen en dos clases, \textit{Particionales} y \textit{Jerárquicas}. \textit{K-means} es una de las más usadas en los dominios de agrupación jerárquica.
+
+Las dos preguntas fundamentales que deben abordarse en cualquier sistema de agrupamiento son: $1)$ ¿Cuántos grupos están realmente presentes en los datos? y $2)$ ¿Cuán real o bueno es el clustering en sí? Es decir, cualquiera sea el método de agrupamiento utilizado, uno tiene que determinar el número de grupos a formar y la bondad o validez de los conjuntos formados. La medida de validez de los clusters debe ser tal que sea capaz de imponer un ordenamiento de los clusters en términos de su bondad.
+
+El clustering obtenido por el algoritmo \textit{k-means} tiene la desventaja de que depende fuertemente de la inicialización de sus semillas. Es por esto que en este trabajo se pretende comparar diferentes métodos de inicialización utilizando las siguientes medidas e índices de validez: \textbf{Iteraciones}, \textbf{Tiempo}, \textbf{Intra} e \textbf{Inter-Cluster} y su relación \textbf{Intra/Inter}, el índice de \textbf{Davies-Bouldin} \cite{DB} y el índice de \textbf{Dunn} \cite{Dunn}. 
+
+Los métodos de inicialización a comparar son: \textbf{McQueen}, \textbf{Etiquetado}, \textbf{McRae}, \textbf{Forgy}, \textbf{Ball Hall} y \textbf{k-means++}. \cite{original, k-means++, Forgy-kmeans}.
+
+\section{Métodos de Inicialización}
+
+\subsection{BallHall}
+Ball y Hall proponen tomar el vector de medias de los datos como el primer punto semilla; posteriormente se seleccionan los restantes examinando los individuos sucesivamente, aceptando uno de ellos como siguiente punto semilla siempre y cuando esté, por lo menos, a alguna distancia, d, de todos los puntos elegidos anteriormente. Se continúa de esta forma hasta completar los $K$ puntos deseados o el conjunto de datos se agota. 
+
+Aquí, $d$ es tomado como la longitud entre el mínimo y máximo punto, dividida por la cantidad de clusters solicitados. Considerando como punto mínimo y máximo aquellos cuyas coordenadas se obtienen de buscar el mínimo y el máximo valor en cada dimensión.
+
+\IncMargin{1em}\begin{algorithm} 
+\SetAlgoLined
+\SetKwInOut{Input}{Entradas}\SetKwInOut{Output}{Retorna}
+\caption{BallHall}
+\Input{k, Data}
+\Output{Matriz Seed de semillas}
+ [n, m] = size(Data)\;
+ d = max(distancia entre puntos) / k\; 
+ Seed[1] =  mean(Data)\;
+ ind = 2\;
+ \While{ind $<$ k+1}{
+ 	\For{$i\leftarrow 2$ \KwTo $n$}{
+		\eIf{distancia(Data(i)) $>$ d}{
+        	Seed[ind] = Data(i)\;
+        	ind + 1\;
+    	}
+    	{
+    	continue;
+    	}
+	}
+  } 
+  \label{BallHall}
+\end{algorithm}\DecMargin{1em}
+
+\subsection{Mc Queen}
+El método de McQueen se basa en elegir como semillas a los primeros $K$ patrones del conjunto de datos. Se considera que la secuenciación en que se introducen los datos a la base de datos no influye en el resultado final.
+\IncMargin{1em}\begin{algorithm}
+\SetAlgoLined
+\SetKwInOut{Input}{Entradas}\SetKwInOut{Output}{Retorna}
+\caption{Mc Queen}
+\Input{k, Data}
+\Output{Matriz Seed de semillas}
+ [n, m] = size(Data)\;
+ Seed[1:k] = Data(1:k);
+ \label{Mc Queen}
+\end{algorithm}\DecMargin{1em}
+
+\subsection{Etiquetado}
+En este algoritmo se crean $K$ índices donde cada uno de estos hace referencia a un patrón en la matriz \textit{Data} original de n elementos. Dichos índices se conforman de la siguiente manera:
+\begin{align*}
+\left[ \dfrac{\alpha \cdot m}{K} \right] 
+\end{align*}
+donde: $\alpha = 1, 2, \dots, (K-1), K $;  $m = 1,2,\dots, (n-1), n$ y $\left[ x \right]$ representa la parte entera de $x$.
+
+Luego, obtenidos los $K$ índices, se toman como \textit{Seed} aquellos patrones que se referencian en Data.
+\IncMargin{1em}\begin{algorithm}
+\SetAlgoLined
+\SetKwInOut{Input}{Entradas}\SetKwInOut{Output}{Retorna}
+\caption{Etiquetado}
+\Input{k, Data}
+\Output{Matriz Seed de semillas}
+[n, m] = size(Data)\;
+\For{$alpha \leftarrow 1$ \KwTo $k$}{
+		ind = ParteEntera(alpha*n/k)\;
+		Seed[alpha] = Data(ind)\;
+	}
+\label{Etiquetado}
+\end{algorithm}\DecMargin{1em} 
+
+\subsection{Forgy}
+En el algoritmo de Forgy se forman $K$ grupos mutuamente excluyentes de patrones seleccionados al azar de la matriz \textit{Data}. Una vez conformados estos grupos, se le toma a cada uno el promedio y dicho resultado se utiliza como semilla.  
+\IncMargin{1em}
+\begin{algorithm}
+\SetAlgoLined
+\SetKwInOut{Input}{Entradas}\SetKwInOut{Output}{Retorna}
+\caption{Forgy}
+\Input{k, Data}
+\Output{Matriz Seed de semillas}
+[n, m] = size(Data)\;
+mezclar(Data)\;
+p = round(n/k);  $\leftarrow$ patrones por cluster \\
+c = 1; ind = 1\;
+\While{c $<$ k+1}{
+		\eIf{(i+p-1) $>$ n}
+		{ Seed[c,:] = mean(Data(i:end))\; }
+		{ Seed[c,:] = mean(Data(i:(i+p-1)))\;}
+		i = i+p\;
+		c = c + 1\;
+	}
+	\label{Forgy}
+\end{algorithm}\DecMargin{1em}
+
+\subsection{k-means ++}
+El algoritmo de k-mean ++ consiste en encontrar semillas tal que se minimice la varianza entre grupos, es decir, minimizar la suma de las distancias al cuadrado de cada punto al centro mas cercano a él. Para realizar esto lo que se hace es seleccionar la primer semilla al azar entre todos los patrones de \textit{Data}. Luego se le asigna una probabilidad a cada patrón, donde esta probabilidad consiste en el cuadrado de la menor distancia a una semilla sobre la suma de las distancias:
+\begin{align*}
+P(x)=\frac{D(x)^2}{\sum_{x\epsilon X}D(x)^2}
+\end{align*}
+Dadas estas probabilidades por patrón, se selecciona un ganador y se repite hasta encontrar las $K$ semillas. 
+
+\IncMargin{1em}\begin{algorithm}
+\SetAlgoLined
+\SetKwInOut{Input}{Entradas}\SetKwInOut{Output}{Retorna}
+\caption{k-means ++}
+\Input{k, Data}
+\Output{Matriz Seed de semillas}
+ [n, m] = size(Data)\;
+ Seed[1] =  Data(rand(),:)\;
+ 	\For{$i\leftarrow 2$ \KwTo $k$}{
+		\For{$j\leftarrow 1$ \KwTo $n$}{
+			Prob(j) = min(distancia(Data(j),Seed));
+		}
+		Seed[i] = Data(ganador);
+	}
+	\label{k-means ++}
+\end{algorithm}\DecMargin{1em}
+
+\subsection{Mc Rae}
+Se etiquetan los patrones de $1$ a $m$. Para obtener la primer semilla, se genera un número al azar entre $1$ y $m$, dicho número indica el patrón seleccionado. Para la siguiente semilla, se repite el mismo procedimiento pero esta vez, generando un valor al azar entre $1$ y $(m-1)$, debido a que ya se ha obtenido una semilla y la cantidad de patrones disminuye una unidad.
+\IncMargin{1em}\begin{algorithm}
+\SetAlgoLined
+\SetKwInOut{Input}{Entradas}\SetKwInOut{Output}{Retorna}
+\caption{Mc Rae}
+\Input{k, Data}
+\Output{Matriz Seed de semillas}
+ [n, m] = size(Data)\;
+ c = 1\;
+\While{c $<$ k+1}{
+		ind = rand()\;		
+		Seed[c] = Data(ind)\;
+		Data = elimino(Data(ind))\; 		
+		c = c + 1\;
+	}
+	\label{Mc Rae}
+\end{algorithm}\DecMargin{1em}
+
+\section{Medidas e Índices de Validación de Clusters}
+Sea $K$ el número de clusters que se quieren obtener de un conjunto de datos. Sea $n$ la cantidad de patrones agrupados en un cluster. Sea $d()$ la medida de distancia utilizada (norma 2 en nuestro caso) y sea $z$ el centroide de un dado cluster. Entonces, con el fin de establecer la bondad de los clusters encontrados por \textit{k-means}, dependiendo de las distintas inicializaciones, se utiliza una serie de índices o parámetros que se describen a continuación: 
+
+\subsection{Distancia Intra-Cluster}
+La distancia \textit{Intra-Cluster} es una medida de cuán compacto es el cluster en cuestión. En otras palabras, este índice mide qué tan alejados están los patrones del cluster con respecto a su centroide. La forma de obtener este valor es de la siguiente manera:
+\begin{align*}
+\sum_{i = 1}^{n} \frac{d(x_i - z)}{n}
+\end{align*}
+
+\subsection{Distacia Inter-Cluster}
+La distancia \textit{Inter-Cluster} es una medida de cuán dispersos están los clusters unos de otros. Es decir, este índice mide qué tan alejado está un cluster del resto de los clusters encontrados. Su valor puede calcularse como sigue:
+\begin{align*}
+\dfrac{\sum_{i=1}^{K-1}\sum_{j=i+1}^{K} d(z_i - z_j)}{K}
+\end{align*}
+
+\subsection{Índice Davies-Bouldin}
+Este índice esta definido como la razón entre la distancia \textit{Intra} e \textit{Inter-Cluster}, de la siguiente manera:
+\begin{align*}
+DB = \frac{1}{K} \sum_{i=1}^{K} R_{i,qt}
+\end{align*}
+
+donde $R_{i,qt} = max_{i, j\neq i} \left \{ \frac{S_{i,q}-S_{j,q}}{d(z_i, z_j)} \right \} $. Aquí, $S_i$ y $S_j$ son las distancias \textit{Intra-cluster} de los clusters $i$, $j$, y el denominador representa la distancia \textit{Inter-Cluster}. El objetivo es minimizar este índice, ya que cuanto más compactos sean los clusters y más alejados estén, este índice es más chico.
+
+\subsection{Indice de Dunn}
+Sean $S$ y $T$ dos clusters no vacíos. El diámetro de un cluster se puede expresar como $\bigtriangleup (S) = max_{x,y \in S} {d(x, y)}$ y la distancia $\delta$ entre $S$ y $T$ es $\delta (S,T) = min_{x\in S, y \in T} {d(x, y)}$. Entonces el índice \textit{Dunn} se define como sigue:
+
+\begin{align*}
+\nu_D = min_{1\leq i\leq K} \left \{ min_{1\leq j\leq K, j\neq i} \left \{ \frac{\delta(C_i, C_j)}{max_{1\leq k\leq K} (\bigtriangleup (C_k))}  \right \} \right \}
+\end{align*}
+
+Valores grandes de $\nu_D$ corresponden a buenos clusters, y los valores de $K$ que ayuden a maximizar este índice son la cantidad óptima de clusters para la base de datos.
+
+\subsection{Tiempo de Ejecución y Cantidad de Iteraciones}
+Si bien el Tiempo y las Iteraciones no describen la bondad de un agrupamiento, se pueden utilizar como otro parámetro de calificación de los métodos de inicialización. Estos parámetros son útiles ya que algunos pueden facilitar la tarea del algoritmo \textit{k-menas}, o bien, dificultar la llegada del mismo a su convergencia. En otras palabras, cuanto mejor sean las semillas que recibe \textit{k-means} menor trabajo le costará terminar su proceso y devolver los agrupamientos solicitados.
+
+El tiempo de ejecución es tomado como el tiempo que lleva ejecutar el método de inicialización y \textit{k-means}, mientras que para las iteraciones solo son tenidas en cuenta las que realiza este último.
+
+\section{Desarrollo}
+
+\subsection{Bases de Datos utilizadas}
+Para probar los métodos de inicialización en \textit{k-means} se utilizaron los siguientes conjuntos de datos:
+\begin{itemize}
+\item \textbf{Iris}: $4$ atributos, $3$ clases y $150$ elementos.
+\item \textbf{Nubes-10}: $2$ atributos, $10$ clases y $500$ elementos.
+\item \textbf{Glass}: $10$ atributos, $6$ clases y $214$ elementos.
+\item \textbf{Ionosphere}: $34$ atributos, $2$ clases y $351$ elementos.
+\item \textbf{Doughnut}: $12$ atributos, $2$ clases y $500$ elementos.
+\item \textbf{White Wine}: $11$ atributos, $7$ clases y $500$ - $4897$ elementos.
+\end{itemize}
+
+\subsection{Obtención de Resultados}
+Para evaluar el desempeño de los métodos de inicialización y la bondad de los agrupamientos encontrados, se realizaron $30$ iteraciones con cada método para valores de $K$ que varían ente $K_{min} = 2$ y $K_{max} = 15$. A excepción de \textit{White Wine} que por costo computacional se ejecutó con $10$ iteraciones y $K_{min} = 5$ y $K_{max} = 10$.
+
+A partir de los datos obtenidos, se realizó el promedio para cada índice (entre todas las iteraciones) para cada uno de los posibles valores de $K$. Debemos recordar que no solo evaluamos un método por su promedio en un índice, sino que también consideramos su desvío y su evolución. En cuanto a evolución, nos referimos al comportamiento del algoritmo a medida que la cantidad de clusters solicitados aumenta.
+
+Luego de correr los algoritmos, los resultados obtenidos se muestran en el \textit{Apéndice} \eqref{app_a}. El mismo contiene imágenes que ilustran el desempeño de los métodos de inicialización en relación a las medidas e índices anteriormente mencionados.
+
+\subsection{Resultados}
+En cuanto a las gráficas de los resultados sobre \textit{Iris}, podemos ver que en la figura \ref{fig01} los métodos arrojan en todos los índices resultados similares dado que el número de clusters solicitado es $K = 2$ y esto hace que \textit{k.means}, sin importar las semillas que reciba, encuentre dos grupos bien definidos. Es por esto que las medidas de tiempo e iteración juegan un papel importante para la selección del método adecuado.
+
+En la figura \ref{fig02} el valor de $K=3$ coincide con las clases de \textit{Iris} y al mejor método lo define el índice \textit{Dunn}, siendo este \textit{BallHall}. 
+
+Al incrementar el número de clusters solicitados ($K$ entre $4$ y $15$), nuevamente el índice \textit{Dunn} refleja que el mejor método resulta ser \textit{k.means++}. Como sustento de lo antedicho, se puede observar en la figura \ref{fig04} la evolución de este índice en relación a $K$.
+
+La siguiente base de datos analizada es \textit{Nube10}. Dada la simplicidad de la estructura de los datos que la componen, todos los métodos devuelven buenos resultados. El índice \textit{Dunn} es el único que brinda una distinción significativa arrojando a \textit{k-means++} como sobresaliente. En representación a los resultados para distintos valores de $K$, se muestra sólo la figura \ref{fig05}, con $K=10$. En la figura \ref{fig06} se muestra la relación \textit{Intra/Inter} que ilustra que para cualquier $K$ los métodos arrojan resultados igualmente aceptables.
+
+Al analizar la base de datos \textit{Glass} podemos ver que en las figuras \ref{fig07} y \ref{fig08} las medidas e índices a considerar son Iteraciones, Tiempo e índice \textit{Dunn}, donde el peor método de inicialización es \textit{BallHall} y el mejor es \textit{k-means++}. Al observar la figura \ref{fig09} notamos que \textit{McQueen}, \textit{McRae} y \textit{k-means++} obtienen los mejores resultados en contraposición a \textit{BallHall} y \textit{Etiquetado}.
+
+Para la base de datos \textit{Ionosphere}, en la figura \ref{fig12} podemos observar que hasta $K=12$ el mejor método es \textit{k-means++} con algunos sobrepasos de \textit{Etiquetado}. Sin embargo, con $K=14$ y $K=15$ el método que devuelve mejores resultados es \textit{BallHall}. En las figuras \ref{fig10} y \ref{fig11} se puede observar lo antedicho, pero se debe tener en cuenta que \textit{BallHall} es el algoritmo que requiere más iteraciones.
+
+Dada la disposición de los patrones en la base de datos \textit{Doughnut} el algoritmo \textit{k-means} falla. Esto ocurre debido a que las dos clases son concéntricas. En las figuras \ref{fig13}, \ref{fig14} y \ref{fig15} observamos que ningún índice es determinante para la selección de un método favorable, la única opción a tener en cuenta es el Tiempo y las Iteraciones.
+
+La última base de datos analizada es \textit{White Wine}, donde se ejecutaron los métodos con distinta cantidad de patrones con el propósito de analizar el tiempo de ejecución de los mismos en relación al crecimiento de la base de datos. En la figura \ref{fig16} se puede observar cómo el tiempo crece considerablemente para la base de datos Wine de 4897 patrones y se logra ver que aquellos métodos que necesitan de cálculos sobre todos los patrones, BallHall y k-means ++, son fuertemente influenciados por el volumen de datos.  
+
+\section{Conclusión}
+Los resultados expuestos en la sección anterior nos dejan ver que la elección del método para inicialización de \textit{k-means} es totalmente dependiente de la cantidad $K$ de clusters solicitados y de la base de datos bajo análisis. En bases de datos sencillas, como \textit{Nubes10} o para valores de $K$ bajos en cualquier base de datos, los índices de validación devuelven valores similares, quedando como únicas medidas significativas el Tiempo e Iteraciones. Por otro lado, en bases de datos complejas con mayor volumen de datos y dimensiones, los valores de los índices son inconclusos, y hasta poco intuitivos.
+
+En conclusión, decimos que no es posible establecer una regla o un criterio que permita decidir estrictamente un método de inicialización o el valor optimo de $K$. En cada caso, la elección de la método de inicialización y el valor de $K$ dependerá de la base de datos con la que se trabaje. Sin embargo, a lo largo del trabajo pudimos notar que aquellos métodos que realizan un análisis basado en distancias para la elección de las semillas, brindan mejores inicializaciones.
+
+
+\vspace{0.75cm}
+\nocite{*}
+\bibliographystyle{informe}
+\bibliography{informe}
+
+\clearpage
+\newpage
+\onecolumn
+
+\section{Gráficas} \label{app_a}
+
+\subsection{Gráficas para la base de datos Iris}
+\begin{figure}[htp]
+\centerline{\includegraphics[scale=0.45]{imagenes/Irisk2Global}}
+\caption{Iris con $K=2$}
+\label{fig01}
+\end{figure}
+
+\begin{figure}[htp]
+\centerline{\includegraphics[scale=0.45]{imagenes/Irisk3Global}}
+\caption{Iris con $K=3$}
+\label{fig02}
+\end{figure}
+
+\begin{figure}[htp]
+\centerline{\includegraphics[scale=0.45]{imagenes/Irisk9Global}}
+\caption{Iris con $K=9$}
+\label{fig03}
+\end{figure}
+
+\begin{figure}[htp]
+\centerline{\includegraphics[scale=0.45]{imagenes/IrisDunn}}
+\caption{Índice Dunn en Iris}
+\label{fig04}
+\end{figure}
+
+\clearpage
+ \newpage
+\bigskip
+\subsection{Gráficas para la base de datos Nubes 10}
+\begin{figure}[hbp]
+\centerline{\includegraphics[scale=0.45]{imagenes/Nubek10Global}}
+\caption{Nubes $10$ con $K = 10$.}
+\label{fig05}
+\end{figure}
+
+\begin{figure}[hbp]
+\centerline{\includegraphics[scale=0.45]{imagenes/NubesIntraInter}}
+\caption{Índice Intra/Inter.}
+\label{fig06}
+\end{figure}
+
+\clearpage
+\newpage
+\subsection{Gráficas para la base de datos Glass}
+
+\begin{figure}[hbp]
+\centerline{\includegraphics[scale=0.45]{imagenes/Glassk6Global}}
+\caption{Glass con $K = 6$.}
+\label{fig07}
+\end{figure}
+
+\begin{figure}[hbp]
+\centerline{\includegraphics[scale=0.45]{imagenes/Glassk12Global}}
+\caption{Glass con $K = 12$.}
+\label{fig08}
+\end{figure}
+
+\begin{figure}[hbp]
+\centerline{\includegraphics[scale=0.45]{imagenes/GlassDunn}}
+\caption{Índice Dunn en Glass.}
+\label{fig09}
+\end{figure}
+
+\clearpage
+\newpage
+\subsection{Gráficas para la base de datos Ionosphere}
+
+\begin{figure}[hbp]
+\centerline{\includegraphics[scale=0.45]{imagenes/Ionk12Global}}
+\caption{Ionosphere con $K=12$.}
+\label{fig10}
+\end{figure}
+
+\begin{figure}[hbp]
+\centerline{\includegraphics[scale=0.45]{imagenes/Ionk14Global}}
+\caption{Ionosphere con $K=14$.}
+\label{fig11}
+\end{figure}
+
+\begin{figure}[hbp]
+\centerline{\includegraphics[scale=0.45]{imagenes/IonDunn}}
+\caption{Índice Dunn en Ionosphere.}
+\label{fig12}
+\end{figure}
+
+\clearpage
+\newpage
+\subsection{Gráficas para la base de datos Doughnut}
+
+\begin{figure}[hbp]
+\centerline{\includegraphics[scale=0.45]{imagenes/Donak2Global}}
+\caption{Doughnut con $K=2$.}
+\label{fig13}
+\end{figure}
+
+\begin{figure}[hbp]
+\centerline{\includegraphics[scale=0.45]{imagenes/Donak12Global}}
+\caption{Doughnut con $K=12$.}
+\label{fig14}
+\end{figure}
+
+\begin{figure}[hbp]
+\centerline{\includegraphics[scale=0.45]{imagenes/Donak15Global}}
+\caption{Doughnut con $K=15$.}
+\label{fig15}
+\end{figure}
+
+\subsection{Gráficas para la base de datos Wine}
+\begin{figure}[hbp]
+\centerline{\includegraphics[scale=0.45]{imagenes/WineTiempo}}
+\caption{Tiempo de Wine con 500 y 4897 patrones}
+\label{fig16}
+\end{figure}
+
+
+\end{document}

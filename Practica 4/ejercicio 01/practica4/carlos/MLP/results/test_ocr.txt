@@ -1,0 +1,9 @@
+Inicio:             2015-11-17 23:08:06
+Fin:                2015-11-18 09:44:14
+Tiempo total:       38165.08 seg (636.08 min - 10.60 hr)
+Entrenamiento:      150 Epocas
+Mejor arquitectura: [ 100 40 10 ]
+Datos de Ent. / Val. / Prueba (3 conjuntos): 2000 / 1000 / 1000
+Promedios:
+ENTRENAMIENTO:      99.72 % (stdev 0.08)
+PRUEBA:             90.83 % (stdev 0.42)

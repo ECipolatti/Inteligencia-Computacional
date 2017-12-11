@@ -1,0 +1,10 @@
+function [ output_args ] = Fitnes2D( Particula, type_fitnes )
+    if (type_fitnes == 3)
+        val_fitnes = ((Particula(1)^2 + Particula(2)^2)^(0.25))*((sin(50*(val_x^2+val_y^2))^2)^0.1+1);
+    end
+%FITNES2D Summary of this function goes here
+%   Detailed explanation goes here
+
+
+end
+
